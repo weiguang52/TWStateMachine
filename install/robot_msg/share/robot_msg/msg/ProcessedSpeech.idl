@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msg/msg/ProcessedSpeech.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module robot_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "处理后的语音数据")
+    struct ProcessedSpeech {
+      @verbatim (language="comment", text=
+        "处理后的音频数据")
+      sequence<uint8> audio_data;
+
+      @verbatim (language="comment", text=
+        "采样率")
+      uint32 sample_rate;
+
+      @verbatim (language="comment", text=
+        "声道数")
+      uint32 channels;
+
+      @verbatim (language="comment", text=
+        "时长(秒)")
+      float duration;
+
+      @verbatim (language="comment", text=
+        "降噪前噪声等级")
+      float noise_level_before;
+
+      @verbatim (language="comment", text=
+        "降噪后噪声等级")
+      float noise_level_after;
+
+      builtin_interfaces::msg::Time timestamp;
+    };
+  };
+};

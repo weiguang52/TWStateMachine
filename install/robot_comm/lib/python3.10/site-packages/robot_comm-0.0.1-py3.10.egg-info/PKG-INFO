@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: robot_comm
+Version: 0.0.1
+Summary: ROS2 node for robot communication using gRPC
+Maintainer: Yuke Ma
+Maintainer-email: mayuke803@gmail.com
+License: TBD
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: rclpy
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: loguru
+Requires-Dist: pyzmq
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

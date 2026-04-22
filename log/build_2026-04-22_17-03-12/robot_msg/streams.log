@@ -1,0 +1,453 @@
+[1.347s] Invoking command in '/home/sunrise/TWStateMachine/build/robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/TWStateMachine/src/robot_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/TWStateMachine/install/robot_msg
+[1.655s] -- The C compiler identification is GNU 11.2.0
+[1.965s] -- The CXX compiler identification is GNU 11.2.0
+[1.997s] -- Detecting C compiler ABI info
+[2.348s] -- Detecting C compiler ABI info - done
+[2.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.396s] -- Detecting C compile features
+[2.398s] -- Detecting C compile features - done
+[2.415s] -- Detecting CXX compiler ABI info
+[2.817s] -- Detecting CXX compiler ABI info - done
+[2.865s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.866s] -- Detecting CXX compile features
+[2.868s] -- Detecting CXX compile features - done
+[2.877s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.130s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.612s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.655s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.038s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[6.109s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[8.181s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.585s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.759s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.760s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.760s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.880s] -- Found PythonExtra: .so  
+[12.216s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.327s] -- Added test 'lint_cmake' to check CMake code style
+[12.334s] -- Added test 'xmllint' to check XML markup files
+[12.347s] -- Configuring done
+[12.572s] -- Generating done
+[12.639s] -- Build files have been written to: /home/sunrise/TWStateMachine/build/robot_msg
+[12.680s] Invoked command in '/home/sunrise/TWStateMachine/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/TWStateMachine/src/robot_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/TWStateMachine/install/robot_msg
+[12.693s] Invoking command in '/home/sunrise/TWStateMachine/build/robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/TWStateMachine/build/robot_msg -- -j8 -l8
+[12.902s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.950s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.984s] [  2%] Built target ament_cmake_python_copy_robot_msg
+[14.291s] running egg_info
+[14.391s] creating robot_msg.egg-info
+[14.392s] writing robot_msg.egg-info/PKG-INFO
+[14.394s] writing dependency_links to robot_msg.egg-info/dependency_links.txt
+[14.397s] writing top-level names to robot_msg.egg-info/top_level.txt
+[14.398s] writing manifest file 'robot_msg.egg-info/SOURCES.txt'
+[14.696s] reading manifest file 'robot_msg.egg-info/SOURCES.txt'
+[14.702s] writing manifest file 'robot_msg.egg-info/SOURCES.txt'
+[14.931s] [  2%] Built target ament_cmake_python_build_robot_msg_egg
+[20.083s] [  2%] Built target robot_msg__cpp
+[20.134s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.138s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.142s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.341s] [  6%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/sound_location__functions.c.o[0m
+[20.343s] [  8%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/speaker_identity__functions.c.o[0m
+[20.347s] [ 10%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/sound_type__functions.c.o[0m
+[20.347s] [ 10%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/processed_speech__functions.c.o[0m
+[20.351s] [ 11%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/speech_data__functions.c.o[0m
+[20.717s] [ 12%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/extreme_sensor_alert__functions.c.o[0m
+[20.720s] [ 14%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/srv/detail/cloud_command__functions.c.o[0m
+[20.722s] [ 14%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/srv/detail/get_temperature_and_humidity__functions.c.o[0m
+[21.082s] [ 16%] [32m[1mLinking C shared library librobot_msg__rosidl_generator_c.so[0m
+[21.301s] [ 16%] Built target robot_msg__rosidl_generator_c
+[21.352s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.355s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.358s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.607s] [ 20%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/processed_speech__type_support.cpp.o[0m
+[25.611s] [ 21%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/speech_data__type_support.cpp.o[0m
+[25.619s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/sound_location__type_support.cpp.o[0m
+[26.952s] [ 24%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/speech_data__type_support.cpp.o[0m
+[27.004s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/speech_data__type_support.cpp.o[0m
+[27.198s] [ 26%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/sound_location__type_support.cpp.o[0m
+[27.371s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/processed_speech__type_support.cpp.o[0m
+[27.458s] [ 28%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/speech_data__type_support.cpp.o[0m
+[27.586s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/sound_type__type_support.cpp.o[0m
+[27.591s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/sound_type__type_support.cpp.o[0m
+[27.679s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/speaker_identity__type_support.cpp.o[0m
+[27.689s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/sound_location__type_support.cpp.o[0m
+[27.769s] [ 34%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/speaker_identity__type_support.cpp.o[0m
+[28.076s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/extreme_sensor_alert__type_support.cpp.o[0m
+[28.326s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/srv/get_temperature_and_humidity__type_support.cpp.o[0m
+[28.590s] [ 37%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/speech_data__type_support.c.o[0m
+[29.038s] [ 39%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/speech_data__type_support_c.cpp.o[0m
+[30.545s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/extreme_sensor_alert__type_support.cpp.o[0m
+[30.546s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/srv/cloud_command__type_support.cpp.o[0m
+[30.547s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/sound_location__type_support_c.cpp.o[0m
+[31.046s] [ 43%] [32m[1mLinking CXX shared library librobot_msg__rosidl_typesupport_c.so[0m
+[33.082s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/srv/get_temperature_and_humidity__type_support.cpp.o[0m
+[33.144s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/processed_speech__type_support.cpp.o[0m
+[33.147s] [ 47%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/sound_location__type_support.c.o[0m
+[33.210s] [ 47%] Built target robot_msg__rosidl_typesupport_c
+[33.259s] [ 48%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/processed_speech__type_support.c.o[0m
+[33.346s] [ 49%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/sound_location__type_support.cpp.o[0m
+[33.385s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/processed_speech__type_support.cpp.o[0m
+[33.389s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/sound_type__type_support.cpp.o[0m
+[33.493s] [ 52%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/sound_type__type_support.c.o[0m
+[33.762s] [ 54%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/speaker_identity__type_support.c.o[0m
+[34.072s] [ 55%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/extreme_sensor_alert__type_support.c.o[0m
+[34.570s] [ 56%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/srv/detail/get_temperature_and_humidity__type_support.c.o[0m
+[34.897s] [ 57%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/srv/detail/cloud_command__type_support.c.o[0m
+[35.221s] [ 58%] [32m[1mLinking C shared library librobot_msg__rosidl_typesupport_introspection_c.so[0m
+[35.334s] [ 59%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/processed_speech__type_support_c.cpp.o[0m
+[35.410s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/srv/cloud_command__type_support.cpp.o[0m
+[35.442s] [ 60%] Built target robot_msg__rosidl_typesupport_introspection_c
+[35.537s] [ 62%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/speaker_identity__type_support.cpp.o[0m
+[35.634s] [ 63%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/sound_type__type_support_c.cpp.o[0m
+[36.574s] [ 64%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/extreme_sensor_alert__type_support.cpp.o[0m
+[36.598s] [ 65%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/speaker_identity__type_support_c.cpp.o[0m
+[37.117s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/sound_type__type_support.cpp.o[0m
+[37.427s] [ 67%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/srv/detail/get_temperature_and_humidity__type_support.cpp.o[0m
+[37.688s] [ 68%] [32m[1mLinking CXX shared library librobot_msg__rosidl_typesupport_cpp.so[0m
+[38.071s] [ 68%] Built target robot_msg__rosidl_typesupport_cpp
+[38.122s] [ 70%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/speaker_identity__type_support.cpp.o[0m
+[38.165s] [ 71%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/srv/detail/cloud_command__type_support.cpp.o[0m
+[38.574s] [ 72%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/extreme_sensor_alert__type_support.cpp.o[0m
+[38.623s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/srv/detail/dds_fastrtps/get_temperature_and_humidity__type_support.cpp.o[0m
+[39.584s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/extreme_sensor_alert__type_support_c.cpp.o[0m
+[39.969s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/srv/detail/get_temperature_and_humidity__type_support_c.cpp.o[0m
+[40.794s] [ 77%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/srv/detail/cloud_command__type_support_c.cpp.o[0m
+[41.226s] [ 78%] [32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/srv/detail/dds_fastrtps/cloud_command__type_support.cpp.o[0m
+[41.327s] [ 79%] [32m[1mLinking CXX shared library librobot_msg__rosidl_typesupport_introspection_cpp.so[0m
+[41.903s] [ 79%] Built target robot_msg__rosidl_typesupport_introspection_cpp
+[43.141s] [ 80%] [32m[1mLinking CXX shared library librobot_msg__rosidl_typesupport_fastrtps_c.so[0m
+[43.628s] [ 80%] Built target robot_msg__rosidl_typesupport_fastrtps_c
+[43.752s] [ 81%] [32m[1mLinking CXX shared library librobot_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[44.254s] [ 81%] Built target robot_msg__rosidl_typesupport_fastrtps_cpp
+[44.341s] [ 81%] Built target robot_msg
+[44.430s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[56.907s] [ 82%] Built target robot_msg__py
+[57.006s] [ 86%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_sound_type_s.c.o[0m
+[57.008s] [ 86%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_speech_data_s.c.o[0m
+[57.008s] [ 86%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_processed_speech_s.c.o[0m
+[57.009s] [ 88%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/srv/_get_temperature_and_humidity_s.c.o[0m
+[57.010s] [ 88%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_extreme_sensor_alert_s.c.o[0m
+[57.012s] [ 89%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_speaker_identity_s.c.o[0m
+[57.015s] [ 90%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_sound_location_s.c.o[0m
+[57.018s] [ 91%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/srv/_cloud_command_s.c.o[0m
+[57.881s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_msg/librobot_msg__rosidl_generator_py.so[0m
+[58.140s] [ 93%] Built target robot_msg__rosidl_generator_py
+[58.235s] [ 96%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[58.236s] [ 96%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[58.237s] [ 96%] [32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[58.981s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[58.986s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[58.987s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[59.220s] [100%] Built target robot_msg__rosidl_typesupport_c__pyext
+[59.227s] [100%] Built target robot_msg__rosidl_typesupport_introspection_c__pyext
+[59.228s] [100%] Built target robot_msg__rosidl_typesupport_fastrtps_c__pyext
+[59.287s] Invoked command in '/home/sunrise/TWStateMachine/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/TWStateMachine/build/robot_msg -- -j8 -l8
+[59.335s] Invoking command in '/home/sunrise/TWStateMachine/build/robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/TWStateMachine/build/robot_msg
+[59.374s] -- Install configuration: ""
+[59.375s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/rosidl_interfaces/robot_msg
+[59.376s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg
+[59.377s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv
+[59.377s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail
+[59.378s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.h
+[59.379s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__functions.h
+[59.380s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.h
+[59.380s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__functions.h
+[59.381s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__struct.h
+[59.381s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__functions.c
+[59.382s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__functions.c
+[59.382s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__struct.h
+[59.383s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/get_temperature_and_humidity.h
+[59.383s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/cloud_command.h
+[59.384s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg
+[59.384s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_type.h
+[59.385s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/processed_speech.h
+[59.385s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_c__visibility_control.h
+[59.386s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail
+[59.386s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.h
+[59.387s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__struct.h
+[59.387s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.h
+[59.388s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__functions.h
+[59.389s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__functions.h
+[59.389s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__struct.h
+[59.390s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.h
+[59.391s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.h
+[59.391s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__functions.c
+[59.392s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__struct.h
+[59.392s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__struct.h
+[59.393s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__functions.c
+[59.393s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.h
+[59.394s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__functions.c
+[59.395s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__functions.c
+[59.395s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__functions.c
+[59.396s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__functions.h
+[59.396s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.h
+[59.397s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__functions.c
+[59.397s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__functions.h
+[59.398s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__struct.h
+[59.398s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__struct.h
+[59.399s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__functions.h
+[59.399s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__functions.h
+[59.400s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/extreme_sensor_alert.h
+[59.400s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_location.h
+[59.401s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speech_data.h
+[59.401s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speaker_identity.h
+[59.402s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/library_path.sh
+[59.402s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/library_path.dsv
+[59.403s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_c.so
+[59.403s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_c.so" to ""
+[59.404s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg
+[59.404s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv
+[59.405s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail
+[59.405s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_fastrtps_c.h
+[59.406s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_fastrtps_c.h
+[59.406s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg
+[59.407s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail
+[59.407s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_fastrtps_c.h
+[59.408s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_fastrtps_c.h
+[59.408s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_fastrtps_c.h
+[59.409s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_fastrtps_c.h
+[59.409s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_fastrtps_c.h
+[59.410s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_fastrtps_c.h
+[59.411s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[59.411s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_c.so
+[59.412s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[59.412s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg
+[59.413s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv
+[59.413s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail
+[59.414s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_introspection_c.h
+[59.414s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.c
+[59.415s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_introspection_c.h
+[59.415s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.c
+[59.416s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg
+[59.416s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail
+[59.417s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_introspection_c.h
+[59.417s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.c
+[59.418s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.c
+[59.418s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.c
+[59.419s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.c
+[59.419s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_introspection_c.h
+[59.420s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_introspection_c.h
+[59.420s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_introspection_c.h
+[59.421s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.c
+[59.421s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_introspection_c.h
+[59.422s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_introspection_c.h
+[59.422s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.c
+[59.423s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[59.423s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_c.so
+[59.424s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_c.so" to ""
+[59.424s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_c.so
+[59.425s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_c.so" to ""
+[59.426s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg
+[59.426s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv
+[59.427s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail
+[59.427s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__traits.hpp
+[59.428s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.hpp
+[59.428s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__struct.hpp
+[59.429s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__builder.hpp
+[59.429s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__struct.hpp
+[59.430s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__traits.hpp
+[59.431s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.hpp
+[59.431s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__builder.hpp
+[59.432s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/get_temperature_and_humidity.hpp
+[59.432s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/cloud_command.hpp
+[59.433s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg
+[59.433s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[59.434s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_type.hpp
+[59.434s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail
+[59.435s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__struct.hpp
+[59.435s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__traits.hpp
+[59.436s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.hpp
+[59.436s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__struct.hpp
+[59.437s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__builder.hpp
+[59.438s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__traits.hpp
+[59.438s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__builder.hpp
+[59.439s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.hpp
+[59.439s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__struct.hpp
+[59.440s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__traits.hpp
+[59.440s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.hpp
+[59.441s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.hpp
+[59.441s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__traits.hpp
+[59.442s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__struct.hpp
+[59.442s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__struct.hpp
+[59.443s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.hpp
+[59.444s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__builder.hpp
+[59.444s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.hpp
+[59.445s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__traits.hpp
+[59.445s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__builder.hpp
+[59.446s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__builder.hpp
+[59.446s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__traits.hpp
+[59.447s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__struct.hpp
+[59.447s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__builder.hpp
+[59.448s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/processed_speech.hpp
+[59.448s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_location.hpp
+[59.449s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speech_data.hpp
+[59.449s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/extreme_sensor_alert.hpp
+[59.450s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speaker_identity.hpp
+[59.450s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg
+[59.451s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv
+[59.451s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail
+[59.452s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/dds_fastrtps
+[59.452s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[59.453s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_fastrtps_cpp.hpp
+[59.453s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg
+[59.454s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail
+[59.454s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_fastrtps_cpp.hpp
+[59.455s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/dds_fastrtps
+[59.455s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_fastrtps_cpp.hpp
+[59.456s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_fastrtps_cpp.hpp
+[59.456s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_fastrtps_cpp.hpp
+[59.457s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_fastrtps_cpp.hpp
+[59.457s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_fastrtps_cpp.hpp
+[59.458s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[59.459s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_cpp.so
+[59.459s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[59.460s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg
+[59.460s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv
+[59.461s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail
+[59.461s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_introspection_cpp.hpp
+[59.462s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.cpp
+[59.462s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.cpp
+[59.463s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_introspection_cpp.hpp
+[59.463s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg
+[59.463s] -- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail
+[59.464s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_introspection_cpp.hpp
+[59.464s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.cpp
+[59.465s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.cpp
+[59.465s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_introspection_cpp.hpp
+[59.466s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.cpp
+[59.467s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.cpp
+[59.467s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.cpp
+[59.468s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_introspection_cpp.hpp
+[59.468s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.cpp
+[59.469s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_introspection_cpp.hpp
+[59.469s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_introspection_cpp.hpp
+[59.470s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_introspection_cpp.hpp
+[59.470s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_cpp.so
+[59.471s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[59.472s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_cpp.so
+[59.473s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_cpp.so" to ""
+[59.474s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/pythonpath.sh
+[59.474s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/pythonpath.dsv
+[59.475s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info
+[59.476s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[59.477s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[59.477s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/top_level.txt
+[59.478s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[59.478s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg
+[59.479s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv
+[59.479s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_cloud_command.py
+[59.480s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_cloud_command_s.c
+[59.480s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_get_temperature_and_humidity_s.c
+[59.481s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/__init__.py
+[59.482s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_get_temperature_and_humidity.py
+[59.482s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[59.483s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/librobot_msg__rosidl_generator_py.so
+[59.483s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[59.484s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_introspection_c.c
+[59.484s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[59.485s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/__init__.py
+[59.485s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg
+[59.486s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speaker_identity.py
+[59.486s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_location_s.c
+[59.487s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_location.py
+[59.487s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_type.py
+[59.488s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_extreme_sensor_alert_s.c
+[59.488s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speech_data_s.c
+[59.489s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_extreme_sensor_alert.py
+[59.489s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_processed_speech.py
+[59.490s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_type_s.c
+[59.490s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/__init__.py
+[59.491s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speaker_identity_s.c
+[59.491s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_processed_speech_s.c
+[59.491s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speech_data.py
+[59.492s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_c.c
+[59.492s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[59.739s] Listing '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg'...
+[59.741s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/__init__.py'...
+[59.741s] Listing '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg'...
+[59.741s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/__init__.py'...
+[59.742s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_extreme_sensor_alert.py'...
+[59.742s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_processed_speech.py'...
+[59.743s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_location.py'...
+[59.743s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_type.py'...
+[59.744s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speaker_identity.py'...
+[59.744s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speech_data.py'...
+[59.744s] Listing '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv'...
+[59.745s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/__init__.py'...
+[59.745s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_cloud_command.py'...
+[59.746s] Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_get_temperature_and_humidity.py'...
+[59.784s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[59.785s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.786s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[59.787s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.788s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[59.791s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[59.791s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_py.so
+[59.793s] -- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_py.so" to ""
+[59.794s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeechData.idl
+[59.795s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundLocation.idl
+[59.795s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ProcessedSpeech.idl
+[59.796s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundType.idl
+[59.797s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeakerIdentity.idl
+[59.797s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ExtremeSensorAlert.idl
+[59.798s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity.idl
+[59.799s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand.idl
+[59.800s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeechData.msg
+[59.800s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundLocation.msg
+[59.801s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ProcessedSpeech.msg
+[59.802s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundType.msg
+[59.802s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeakerIdentity.msg
+[59.803s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ExtremeSensorAlert.msg
+[59.804s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity.srv
+[59.804s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity_Request.msg
+[59.805s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity_Response.msg
+[59.806s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand.srv
+[59.806s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand_Request.msg
+[59.807s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand_Response.msg
+[59.808s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/package_run_dependencies/robot_msg
+[59.809s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/parent_prefix_path/robot_msg
+[59.809s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/ament_prefix_path.sh
+[59.810s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/ament_prefix_path.dsv
+[59.811s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/path.sh
+[59.812s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/path.dsv
+[59.812s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.bash
+[59.813s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.sh
+[59.814s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.zsh
+[59.814s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.dsv
+[59.815s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/package.dsv
+[59.816s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/packages/robot_msg
+[59.817s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cExport.cmake
+[59.818s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cExport-noconfig.cmake
+[59.818s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[59.819s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[59.820s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cExport.cmake
+[59.821s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[59.821s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cExport.cmake
+[59.822s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cExport-noconfig.cmake
+[59.823s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cppExport.cmake
+[59.824s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[59.824s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[59.825s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cppExport.cmake
+[59.826s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.827s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cppExport.cmake
+[59.828s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[59.828s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_pyExport.cmake
+[59.829s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_pyExport-noconfig.cmake
+[59.830s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/rosidl_cmake-extras.cmake
+[59.831s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.831s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.832s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[59.833s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_targets-extras.cmake
+[59.834s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.835s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.835s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msgConfig.cmake
+[59.836s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msgConfig-version.cmake
+[59.837s] -- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/package.xml
+[59.850s] Invoked command in '/home/sunrise/TWStateMachine/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/TWStateMachine/build/robot_msg

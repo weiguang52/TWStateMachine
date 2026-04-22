@@ -1,0 +1,2 @@
+[console_scripts]
+robot_comm = robot_comm.main:main

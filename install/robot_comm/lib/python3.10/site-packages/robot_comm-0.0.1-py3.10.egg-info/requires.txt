@@ -1,0 +1,6 @@
+setuptools
+rclpy
+grpcio
+grpcio-tools
+loguru
+pyzmq

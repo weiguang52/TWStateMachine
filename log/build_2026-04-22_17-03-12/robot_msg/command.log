@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/TWStateMachine/build/robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/TWStateMachine/src/robot_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/TWStateMachine/install/robot_msg
+Invoked command in '/home/sunrise/TWStateMachine/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/TWStateMachine/src/robot_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/TWStateMachine/install/robot_msg
+Invoking command in '/home/sunrise/TWStateMachine/build/robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/TWStateMachine/build/robot_msg -- -j8 -l8
+Invoked command in '/home/sunrise/TWStateMachine/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/TWStateMachine/build/robot_msg -- -j8 -l8
+Invoking command in '/home/sunrise/TWStateMachine/build/robot_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/TWStateMachine/build/robot_msg
+Invoked command in '/home/sunrise/TWStateMachine/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/TWStateMachine/build/robot_msg

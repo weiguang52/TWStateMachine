@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msg/msg/ExtremeSensorAlert.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module robot_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "极端传感器数据报警消息")
+    struct ExtremeSensorAlert {
+      @verbatim (language="comment", text=
+        "传感器类型 (temperature, humidity, combined)")
+      string sensor_type;
+
+      @verbatim (language="comment", text=
+        "报警级别 (normal, warning, critical, danger)")
+      string alert_level;
+
+      @verbatim (language="comment", text=
+        "报警类型 (high, low, out_of_range)")
+      string alert_type;
+
+      @verbatim (language="comment", text=
+        "当前值")
+      double current_value;
+
+      @verbatim (language="comment", text=
+        "阈值")
+      double threshold_value;
+
+      @verbatim (language="comment", text=
+        "描述信息")
+      string description;
+
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "是否为活跃报警")
+      boolean is_active;
+
+      @verbatim (language="comment", text=
+        "报警ID（用于追踪）")
+      uint32 alert_id;
+    };
+  };
+};

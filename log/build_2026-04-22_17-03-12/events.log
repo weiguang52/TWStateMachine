@@ -1,0 +1,1133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001258] (-) JobUnselected: {'identifier': 'robot_state_machine'}
+[0.002466] (robot_comm) JobQueued: {'identifier': 'robot_comm', 'dependencies': OrderedDict()}
+[0.003330] (robot_msg) JobQueued: {'identifier': 'robot_msg', 'dependencies': OrderedDict()}
+[0.004184] (robot_comm) JobStarted: {'identifier': 'robot_comm'}
+[0.049386] (robot_msg) JobStarted: {'identifier': 'robot_msg'}
+[0.098914] (-) TimerEvent: {}
+[0.199755] (-) TimerEvent: {}
+[0.300614] (-) TimerEvent: {}
+[0.401493] (-) TimerEvent: {}
+[0.502341] (-) TimerEvent: {}
+[0.603196] (-) TimerEvent: {}
+[0.704055] (-) TimerEvent: {}
+[0.804907] (-) TimerEvent: {}
+[0.905751] (-) TimerEvent: {}
+[1.006639] (-) TimerEvent: {}
+[1.107576] (-) TimerEvent: {}
+[1.208473] (-) TimerEvent: {}
+[1.309476] (-) TimerEvent: {}
+[1.388829] (robot_msg) JobProgress: {'identifier': 'robot_msg', 'progress': 'cmake'}
+[1.391485] (robot_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/TWStateMachine/src/robot_msg', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/TWStateMachine/install/robot_msg'], 'cwd': '/home/sunrise/TWStateMachine/build/robot_msg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1390'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/sunrise/miniconda3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '54525955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/miniconda3/condabin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1255,unix/ubuntu:/tmp/.ICE-unix/1255'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXesmOq8/agent.1389'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/sunrise/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/TWStateMachine/build/robot_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CONDA_EXE', '/home/sunrise/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.410611] (-) TimerEvent: {}
+[1.511803] (-) TimerEvent: {}
+[1.612908] (-) TimerEvent: {}
+[1.703830] (robot_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[1.713021] (-) TimerEvent: {}
+[1.813893] (-) TimerEvent: {}
+[1.914816] (-) TimerEvent: {}
+[2.013992] (robot_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[2.014828] (-) TimerEvent: {}
+[2.046374] (robot_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.115065] (-) TimerEvent: {}
+[2.215973] (-) TimerEvent: {}
+[2.316890] (-) TimerEvent: {}
+[2.397502] (robot_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.417028] (-) TimerEvent: {}
+[2.444156] (robot_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.445408] (robot_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.447881] (robot_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.464372] (robot_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.517228] (-) TimerEvent: {}
+[2.618131] (-) TimerEvent: {}
+[2.719024] (-) TimerEvent: {}
+[2.819944] (-) TimerEvent: {}
+[2.866105] (robot_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.914261] (robot_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.915477] (robot_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.917851] (robot_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.920056] (-) TimerEvent: {}
+[2.926907] (robot_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.020244] (-) TimerEvent: {}
+[3.121186] (-) TimerEvent: {}
+[3.222082] (-) TimerEvent: {}
+[3.322925] (-) TimerEvent: {}
+[3.423794] (-) TimerEvent: {}
+[3.524665] (-) TimerEvent: {}
+[3.625540] (-) TimerEvent: {}
+[3.726394] (-) TimerEvent: {}
+[3.827286] (-) TimerEvent: {}
+[3.928225] (-) TimerEvent: {}
+[4.029193] (-) TimerEvent: {}
+[4.128205] (robot_comm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_comm', 'build', '--build-base', '/home/sunrise/TWStateMachine/build/robot_comm/build', 'install', '--record', '/home/sunrise/TWStateMachine/build/robot_comm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/TWStateMachine/src/robot_comm', 'env': {'CONDA_PROMPT_MODIFIER': '', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1390', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/sunrise', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/sunrise/miniconda3', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sunrise', 'WINDOWID': '54525955', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c1', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sunrise/miniconda3/condabin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1255,unix/ubuntu:/tmp/.ICE-unix/1255', 'GDM_LANG': 'en', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/sunrise/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXesmOq8/agent.1389', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/sunrise', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sunrise/miniconda3/bin/python', 'SHELL': '/bin/bash', 'GDMSESSION': 'xfce', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/sunrise/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/sunrise/TWStateMachine/build/robot_comm', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CONDA_EXE': '/home/sunrise/miniconda3/bin/conda', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share', 'PYTHONPATH': '/home/sunrise/TWStateMachine/build/robot_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.136816] (-) TimerEvent: {}
+[4.237598] (-) TimerEvent: {}
+[4.338502] (-) TimerEvent: {}
+[4.439412] (-) TimerEvent: {}
+[4.540282] (-) TimerEvent: {}
+[4.641174] (-) TimerEvent: {}
+[4.742062] (-) TimerEvent: {}
+[4.842959] (-) TimerEvent: {}
+[4.943838] (-) TimerEvent: {}
+[5.044754] (-) TimerEvent: {}
+[5.135944] (robot_comm) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.136913] (robot_comm) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.144902] (-) TimerEvent: {}
+[5.179457] (robot_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.245060] (-) TimerEvent: {}
+[5.345901] (-) TimerEvent: {}
+[5.446711] (-) TimerEvent: {}
+[5.547509] (-) TimerEvent: {}
+[5.648330] (-) TimerEvent: {}
+[5.661411] (robot_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.673935] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.704589] (robot_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.748507] (-) TimerEvent: {}
+[5.758341] (robot_comm) StdoutLine: {'line': b'running egg_info\n'}
+[5.848711] (-) TimerEvent: {}
+[5.869255] (robot_comm) StdoutLine: {'line': b'creating ../../build/robot_comm/robot_comm.egg-info\n'}
+[5.870183] (robot_comm) StdoutLine: {'line': b'writing ../../build/robot_comm/robot_comm.egg-info/PKG-INFO\n'}
+[5.872822] (robot_comm) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_comm/robot_comm.egg-info/dependency_links.txt\n'}
+[5.874038] (robot_comm) StdoutLine: {'line': b'writing entry points to ../../build/robot_comm/robot_comm.egg-info/entry_points.txt\n'}
+[5.875220] (robot_comm) StdoutLine: {'line': b'writing requirements to ../../build/robot_comm/robot_comm.egg-info/requires.txt\n'}
+[5.875864] (robot_comm) StdoutLine: {'line': b'writing top-level names to ../../build/robot_comm/robot_comm.egg-info/top_level.txt\n'}
+[5.876691] (robot_comm) StdoutLine: {'line': b"writing manifest file '../../build/robot_comm/robot_comm.egg-info/SOURCES.txt'\n"}
+[5.903627] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.948893] (-) TimerEvent: {}
+[6.049762] (-) TimerEvent: {}
+[6.087581] (robot_msg) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[6.088828] (robot_comm) StdoutLine: {'line': b"reading manifest file '../../build/robot_comm/robot_comm.egg-info/SOURCES.txt'\n"}
+[6.089925] (robot_comm) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.096450] (robot_comm) StdoutLine: {'line': b"writing manifest file '../../build/robot_comm/robot_comm.egg-info/SOURCES.txt'\n"}
+[6.097325] (robot_comm) StdoutLine: {'line': b'running build\n'}
+[6.097929] (robot_comm) StdoutLine: {'line': b'running build_py\n'}
+[6.098909] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm\n'}
+[6.100081] (robot_comm) StdoutLine: {'line': b'copying robot_comm/main.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm\n'}
+[6.101135] (robot_comm) StdoutLine: {'line': b'copying robot_comm/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm\n'}
+[6.102556] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node\n'}
+[6.103195] (robot_comm) StdoutLine: {'line': b'copying robot_comm/node/subscribers.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node\n'}
+[6.104223] (robot_comm) StdoutLine: {'line': b'copying robot_comm/node/cloud_service.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node\n'}
+[6.105406] (robot_comm) StdoutLine: {'line': b'copying robot_comm/node/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node\n'}
+[6.107104] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc\n'}
+[6.107857] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/client.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc\n'}
+[6.109101] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc\n'}
+[6.110681] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto\n'}
+[6.111311] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/proto/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto\n'}
+[6.112305] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/proto/robot_comm_pb2.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto\n'}
+[6.113556] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/proto/robot_comm_pb2_grpc.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto\n'}
+[6.114601] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/proto/media_stream_pb2.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto\n'}
+[6.115613] (robot_comm) StdoutLine: {'line': b'copying robot_comm/grpc/proto/media_stream_pb2_grpc.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto\n'}
+[6.117039] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config\n'}
+[6.117662] (robot_comm) StdoutLine: {'line': b'copying robot_comm/config/settings.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config\n'}
+[6.118692] (robot_comm) StdoutLine: {'line': b'copying robot_comm/config/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config\n'}
+[6.124200] (robot_comm) StdoutLine: {'line': b'running install\n'}
+[6.149909] (-) TimerEvent: {}
+[6.155791] (robot_comm) StdoutLine: {'line': b'running install_lib\n'}
+[6.158768] (robot_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[6.250059] (-) TimerEvent: {}
+[6.252611] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm\n'}
+[6.253553] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config\n'}
+[6.254208] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config/settings.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config\n'}
+[6.254956] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config\n'}
+[6.255711] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/main.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm\n'}
+[6.256542] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm\n'}
+[6.257527] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc\n'}
+[6.258512] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto\n'}
+[6.259379] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto\n'}
+[6.260143] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/robot_comm_pb2.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto\n'}
+[6.261033] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/robot_comm_pb2_grpc.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto\n'}
+[6.261938] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/media_stream_pb2.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto\n'}
+[6.262881] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/media_stream_pb2_grpc.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto\n'}
+[6.263950] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/client.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc\n'}
+[6.264999] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc\n'}
+[6.266265] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node\n'}
+[6.267204] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node/subscribers.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node\n'}
+[6.268123] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node/cloud_service.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node\n'}
+[6.269069] (robot_comm) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node\n'}
+[6.272207] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config/settings.py to settings.cpython-310.pyc\n'}
+[6.273870] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config/__init__.py to __init__.cpython-310.pyc\n'}
+[6.275034] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/main.py to main.cpython-310.pyc\n'}
+[6.277807] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/__init__.py to __init__.cpython-310.pyc\n'}
+[6.279581] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/__init__.py to __init__.cpython-310.pyc\n'}
+[6.281490] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/robot_comm_pb2.py to robot_comm_pb2.cpython-310.pyc\n'}
+[6.284376] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/robot_comm_pb2_grpc.py to robot_comm_pb2_grpc.cpython-310.pyc\n'}
+[6.291031] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/media_stream_pb2.py to media_stream_pb2.cpython-310.pyc\n'}
+[6.294935] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/media_stream_pb2_grpc.py to media_stream_pb2_grpc.cpython-310.pyc\n'}
+[6.301172] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/client.py to client.cpython-310.pyc\n'}
+[6.305327] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/__init__.py to __init__.cpython-310.pyc\n'}
+[6.306931] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node/subscribers.py to subscribers.cpython-310.pyc\n'}
+[6.319682] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node/cloud_service.py to cloud_service.cpython-310.pyc\n'}
+[6.323671] (robot_comm) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node/__init__.py to __init__.cpython-310.pyc\n'}
+[6.325116] (robot_comm) StdoutLine: {'line': b'running install_data\n'}
+[6.326581] (robot_comm) StdoutLine: {'line': b'creating /home/sunrise/TWStateMachine/install/robot_comm/share/ament_index/resource_index/packages\n'}
+[6.327882] (robot_comm) StdoutLine: {'line': b'copying resource/robot_comm -> /home/sunrise/TWStateMachine/install/robot_comm/share/ament_index/resource_index/packages\n'}
+[6.329344] (robot_comm) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/TWStateMachine/install/robot_comm/share/robot_comm\n'}
+[6.330650] (robot_comm) StdoutLine: {'line': b'copying LICENSE -> /home/sunrise/TWStateMachine/install/robot_comm/share/robot_comm\n'}
+[6.331461] (robot_comm) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.350236] (-) TimerEvent: {}
+[6.439783] (robot_comm) StdoutLine: {'line': b'Copying ../../build/robot_comm/robot_comm.egg-info to /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm-0.0.1-py3.10.egg-info\n'}
+[6.444841] (robot_comm) StdoutLine: {'line': b'running install_scripts\n'}
+[6.450373] (-) TimerEvent: {}
+[6.551190] (-) TimerEvent: {}
+[6.652105] (-) TimerEvent: {}
+[6.663049] (robot_comm) StdoutLine: {'line': b'Installing robot_comm script to /home/sunrise/TWStateMachine/install/robot_comm/lib/robot_comm\n'}
+[6.668213] (robot_comm) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/TWStateMachine/build/robot_comm/install.log'\n"}
+[6.752320] (-) TimerEvent: {}
+[6.853264] (-) TimerEvent: {}
+[6.880854] (robot_comm) CommandEnded: {'returncode': 0}
+[6.943424] (robot_comm) JobEnded: {'identifier': 'robot_comm', 'rc': 0}
+[6.953371] (-) TimerEvent: {}
+[7.054035] (-) TimerEvent: {}
+[7.154817] (-) TimerEvent: {}
+[7.255632] (-) TimerEvent: {}
+[7.356542] (-) TimerEvent: {}
+[7.457423] (-) TimerEvent: {}
+[7.558247] (-) TimerEvent: {}
+[7.659130] (-) TimerEvent: {}
+[7.760013] (-) TimerEvent: {}
+[7.860956] (-) TimerEvent: {}
+[7.961808] (-) TimerEvent: {}
+[8.062696] (-) TimerEvent: {}
+[8.163608] (-) TimerEvent: {}
+[8.230448] (robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.263796] (-) TimerEvent: {}
+[8.364700] (-) TimerEvent: {}
+[8.465520] (-) TimerEvent: {}
+[8.566391] (-) TimerEvent: {}
+[8.667264] (-) TimerEvent: {}
+[8.768128] (-) TimerEvent: {}
+[8.869082] (-) TimerEvent: {}
+[8.969927] (-) TimerEvent: {}
+[9.070739] (-) TimerEvent: {}
+[9.171755] (-) TimerEvent: {}
+[9.273476] (-) TimerEvent: {}
+[9.374311] (-) TimerEvent: {}
+[9.475179] (-) TimerEvent: {}
+[9.576061] (-) TimerEvent: {}
+[9.619484] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.676273] (-) TimerEvent: {}
+[9.777123] (-) TimerEvent: {}
+[9.877941] (-) TimerEvent: {}
+[9.978687] (-) TimerEvent: {}
+[10.079547] (-) TimerEvent: {}
+[10.180481] (-) TimerEvent: {}
+[10.281258] (-) TimerEvent: {}
+[10.382091] (-) TimerEvent: {}
+[10.483020] (-) TimerEvent: {}
+[10.583921] (-) TimerEvent: {}
+[10.684779] (-) TimerEvent: {}
+[10.785566] (-) TimerEvent: {}
+[10.886414] (-) TimerEvent: {}
+[10.987290] (-) TimerEvent: {}
+[11.088217] (-) TimerEvent: {}
+[11.189108] (-) TimerEvent: {}
+[11.289916] (-) TimerEvent: {}
+[11.390694] (-) TimerEvent: {}
+[11.464018] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.490956] (-) TimerEvent: {}
+[11.592132] (-) TimerEvent: {}
+[11.610853] (robot_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.633958] (robot_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.692290] (-) TimerEvent: {}
+[11.793133] (-) TimerEvent: {}
+[11.807853] (robot_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[11.808979] (robot_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.809617] (robot_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.810160] (robot_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.893268] (-) TimerEvent: {}
+[11.929247] (robot_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.993483] (-) TimerEvent: {}
+[12.094283] (-) TimerEvent: {}
+[12.195157] (-) TimerEvent: {}
+[12.265100] (robot_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.295316] (-) TimerEvent: {}
+[12.376964] (robot_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.383287] (robot_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.395448] (-) TimerEvent: {}
+[12.397075] (robot_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.495660] (-) TimerEvent: {}
+[12.596488] (-) TimerEvent: {}
+[12.622025] (robot_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[12.688150] (robot_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/TWStateMachine/build/robot_msg\n'}
+[12.696598] (-) TimerEvent: {}
+[12.728015] (robot_msg) CommandEnded: {'returncode': 0}
+[12.733674] (robot_msg) JobProgress: {'identifier': 'robot_msg', 'progress': 'build'}
+[12.738782] (robot_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/TWStateMachine/build/robot_msg', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/TWStateMachine/build/robot_msg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1390'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/sunrise/miniconda3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '54525955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/miniconda3/condabin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1255,unix/ubuntu:/tmp/.ICE-unix/1255'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXesmOq8/agent.1389'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/sunrise/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/TWStateMachine/build/robot_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CONDA_EXE', '/home/sunrise/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.796835] (-) TimerEvent: {}
+[12.897876] (-) TimerEvent: {}
+[12.951065] (robot_msg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.998058] (-) TimerEvent: {}
+[12.999059] (robot_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.033171] (robot_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_robot_msg\n'}
+[13.098236] (-) TimerEvent: {}
+[13.199182] (-) TimerEvent: {}
+[13.300053] (-) TimerEvent: {}
+[13.400878] (-) TimerEvent: {}
+[13.501717] (-) TimerEvent: {}
+[13.602561] (-) TimerEvent: {}
+[13.703399] (-) TimerEvent: {}
+[13.804202] (-) TimerEvent: {}
+[13.905037] (-) TimerEvent: {}
+[14.005873] (-) TimerEvent: {}
+[14.106697] (-) TimerEvent: {}
+[14.207535] (-) TimerEvent: {}
+[14.308374] (-) TimerEvent: {}
+[14.340929] (robot_msg) StdoutLine: {'line': b'running egg_info\n'}
+[14.408610] (-) TimerEvent: {}
+[14.440622] (robot_msg) StdoutLine: {'line': b'creating robot_msg.egg-info\n'}
+[14.441530] (robot_msg) StdoutLine: {'line': b'writing robot_msg.egg-info/PKG-INFO\n'}
+[14.444011] (robot_msg) StdoutLine: {'line': b'writing dependency_links to robot_msg.egg-info/dependency_links.txt\n'}
+[14.446206] (robot_msg) StdoutLine: {'line': b'writing top-level names to robot_msg.egg-info/top_level.txt\n'}
+[14.447231] (robot_msg) StdoutLine: {'line': b"writing manifest file 'robot_msg.egg-info/SOURCES.txt'\n"}
+[14.508804] (-) TimerEvent: {}
+[14.609713] (-) TimerEvent: {}
+[14.710530] (-) TimerEvent: {}
+[14.745569] (robot_msg) StdoutLine: {'line': b"reading manifest file 'robot_msg.egg-info/SOURCES.txt'\n"}
+[14.751878] (robot_msg) StdoutLine: {'line': b"writing manifest file 'robot_msg.egg-info/SOURCES.txt'\n"}
+[14.810756] (-) TimerEvent: {}
+[14.911671] (-) TimerEvent: {}
+[14.980181] (robot_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_robot_msg_egg\n'}
+[15.011818] (-) TimerEvent: {}
+[15.112643] (-) TimerEvent: {}
+[15.213507] (-) TimerEvent: {}
+[15.314337] (-) TimerEvent: {}
+[15.415188] (-) TimerEvent: {}
+[15.516055] (-) TimerEvent: {}
+[15.616927] (-) TimerEvent: {}
+[15.717824] (-) TimerEvent: {}
+[15.818708] (-) TimerEvent: {}
+[15.919565] (-) TimerEvent: {}
+[16.020442] (-) TimerEvent: {}
+[16.121279] (-) TimerEvent: {}
+[16.222114] (-) TimerEvent: {}
+[16.322965] (-) TimerEvent: {}
+[16.423839] (-) TimerEvent: {}
+[16.524720] (-) TimerEvent: {}
+[16.625591] (-) TimerEvent: {}
+[16.726456] (-) TimerEvent: {}
+[16.827294] (-) TimerEvent: {}
+[16.928117] (-) TimerEvent: {}
+[17.029053] (-) TimerEvent: {}
+[17.129956] (-) TimerEvent: {}
+[17.230837] (-) TimerEvent: {}
+[17.331720] (-) TimerEvent: {}
+[17.432579] (-) TimerEvent: {}
+[17.533422] (-) TimerEvent: {}
+[17.634303] (-) TimerEvent: {}
+[17.735188] (-) TimerEvent: {}
+[17.836075] (-) TimerEvent: {}
+[17.936966] (-) TimerEvent: {}
+[18.037853] (-) TimerEvent: {}
+[18.138771] (-) TimerEvent: {}
+[18.239621] (-) TimerEvent: {}
+[18.340401] (-) TimerEvent: {}
+[18.441206] (-) TimerEvent: {}
+[18.542028] (-) TimerEvent: {}
+[18.642823] (-) TimerEvent: {}
+[18.743673] (-) TimerEvent: {}
+[18.844519] (-) TimerEvent: {}
+[18.945345] (-) TimerEvent: {}
+[19.046170] (-) TimerEvent: {}
+[19.147023] (-) TimerEvent: {}
+[19.247863] (-) TimerEvent: {}
+[19.348687] (-) TimerEvent: {}
+[19.449538] (-) TimerEvent: {}
+[19.550390] (-) TimerEvent: {}
+[19.651222] (-) TimerEvent: {}
+[19.752056] (-) TimerEvent: {}
+[19.853061] (-) TimerEvent: {}
+[19.954288] (-) TimerEvent: {}
+[20.055469] (-) TimerEvent: {}
+[20.130982] (robot_msg) StdoutLine: {'line': b'[  2%] Built target robot_msg__cpp\n'}
+[20.155722] (-) TimerEvent: {}
+[20.181593] (robot_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.187262] (robot_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.191448] (robot_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[20.255984] (-) TimerEvent: {}
+[20.357389] (-) TimerEvent: {}
+[20.390461] (robot_msg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/sound_location__functions.c.o\x1b[0m\n'}
+[20.392314] (robot_msg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/speaker_identity__functions.c.o\x1b[0m\n'}
+[20.395161] (robot_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/sound_type__functions.c.o\x1b[0m\n'}
+[20.397054] (robot_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/processed_speech__functions.c.o\x1b[0m\n'}
+[20.400259] (robot_msg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/speech_data__functions.c.o\x1b[0m\n'}
+[20.457614] (-) TimerEvent: {}
+[20.558724] (-) TimerEvent: {}
+[20.659867] (-) TimerEvent: {}
+[20.760945] (-) TimerEvent: {}
+[20.764005] (robot_msg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/msg/detail/extreme_sensor_alert__functions.c.o\x1b[0m\n'}
+[20.767574] (robot_msg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/srv/detail/cloud_command__functions.c.o\x1b[0m\n'}
+[20.770976] (robot_msg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/srv/detail/get_temperature_and_humidity__functions.c.o\x1b[0m\n'}
+[20.861166] (-) TimerEvent: {}
+[20.962639] (-) TimerEvent: {}
+[21.064409] (-) TimerEvent: {}
+[21.131031] (robot_msg) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library librobot_msg__rosidl_generator_c.so\x1b[0m\n'}
+[21.164579] (-) TimerEvent: {}
+[21.265445] (-) TimerEvent: {}
+[21.350821] (robot_msg) StdoutLine: {'line': b'[ 16%] Built target robot_msg__rosidl_generator_c\n'}
+[21.365655] (-) TimerEvent: {}
+[21.400456] (robot_msg) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.403409] (robot_msg) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.406316] (robot_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.465857] (-) TimerEvent: {}
+[21.567182] (-) TimerEvent: {}
+[21.668604] (-) TimerEvent: {}
+[21.769999] (-) TimerEvent: {}
+[21.871353] (-) TimerEvent: {}
+[21.972620] (-) TimerEvent: {}
+[22.073971] (-) TimerEvent: {}
+[22.175289] (-) TimerEvent: {}
+[22.276612] (-) TimerEvent: {}
+[22.377942] (-) TimerEvent: {}
+[22.479280] (-) TimerEvent: {}
+[22.580591] (-) TimerEvent: {}
+[22.681475] (-) TimerEvent: {}
+[22.782438] (-) TimerEvent: {}
+[22.883405] (-) TimerEvent: {}
+[22.984351] (-) TimerEvent: {}
+[23.085273] (-) TimerEvent: {}
+[23.186218] (-) TimerEvent: {}
+[23.287174] (-) TimerEvent: {}
+[23.388125] (-) TimerEvent: {}
+[23.489120] (-) TimerEvent: {}
+[23.590050] (-) TimerEvent: {}
+[23.690985] (-) TimerEvent: {}
+[23.791938] (-) TimerEvent: {}
+[23.892876] (-) TimerEvent: {}
+[23.993854] (-) TimerEvent: {}
+[24.094850] (-) TimerEvent: {}
+[24.195819] (-) TimerEvent: {}
+[24.296749] (-) TimerEvent: {}
+[24.398138] (-) TimerEvent: {}
+[24.499146] (-) TimerEvent: {}
+[24.600049] (-) TimerEvent: {}
+[24.700976] (-) TimerEvent: {}
+[24.801898] (-) TimerEvent: {}
+[24.902856] (-) TimerEvent: {}
+[25.003791] (-) TimerEvent: {}
+[25.104714] (-) TimerEvent: {}
+[25.205647] (-) TimerEvent: {}
+[25.306610] (-) TimerEvent: {}
+[25.407574] (-) TimerEvent: {}
+[25.508658] (-) TimerEvent: {}
+[25.609629] (-) TimerEvent: {}
+[25.655039] (robot_msg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/processed_speech__type_support.cpp.o\x1b[0m\n'}
+[25.659805] (robot_msg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/speech_data__type_support.cpp.o\x1b[0m\n'}
+[25.667087] (robot_msg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/sound_location__type_support.cpp.o\x1b[0m\n'}
+[25.709866] (-) TimerEvent: {}
+[25.811485] (-) TimerEvent: {}
+[25.913073] (-) TimerEvent: {}
+[26.014662] (-) TimerEvent: {}
+[26.116000] (-) TimerEvent: {}
+[26.217612] (-) TimerEvent: {}
+[26.319084] (-) TimerEvent: {}
+[26.420851] (-) TimerEvent: {}
+[26.522672] (-) TimerEvent: {}
+[26.624821] (-) TimerEvent: {}
+[26.726985] (-) TimerEvent: {}
+[26.829098] (-) TimerEvent: {}
+[26.931094] (-) TimerEvent: {}
+[26.999932] (robot_msg) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/speech_data__type_support.cpp.o\x1b[0m\n'}
+[27.031342] (-) TimerEvent: {}
+[27.051659] (robot_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/speech_data__type_support.cpp.o\x1b[0m\n'}
+[27.131620] (-) TimerEvent: {}
+[27.233463] (-) TimerEvent: {}
+[27.244310] (robot_msg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/sound_location__type_support.cpp.o\x1b[0m\n'}
+[27.333754] (-) TimerEvent: {}
+[27.419205] (robot_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/processed_speech__type_support.cpp.o\x1b[0m\n'}
+[27.433983] (-) TimerEvent: {}
+[27.505946] (robot_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/speech_data__type_support.cpp.o\x1b[0m\n'}
+[27.534291] (-) TimerEvent: {}
+[27.634035] (robot_msg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/sound_type__type_support.cpp.o\x1b[0m\n'}
+[27.636488] (-) TimerEvent: {}
+[27.638057] (robot_msg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/sound_type__type_support.cpp.o\x1b[0m\n'}
+[27.728209] (robot_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/speaker_identity__type_support.cpp.o\x1b[0m\n'}
+[27.736745] (-) TimerEvent: {}
+[27.737900] (robot_msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/sound_location__type_support.cpp.o\x1b[0m\n'}
+[27.818279] (robot_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/speaker_identity__type_support.cpp.o\x1b[0m\n'}
+[27.837002] (-) TimerEvent: {}
+[27.938152] (-) TimerEvent: {}
+[28.040121] (-) TimerEvent: {}
+[28.125126] (robot_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/msg/extreme_sensor_alert__type_support.cpp.o\x1b[0m\n'}
+[28.149066] (-) TimerEvent: {}
+[28.250312] (-) TimerEvent: {}
+[28.351880] (-) TimerEvent: {}
+[28.373617] (robot_msg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/srv/get_temperature_and_humidity__type_support.cpp.o\x1b[0m\n'}
+[28.452176] (-) TimerEvent: {}
+[28.554177] (-) TimerEvent: {}
+[28.639116] (robot_msg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/speech_data__type_support.c.o\x1b[0m\n'}
+[28.654428] (-) TimerEvent: {}
+[28.768804] (-) TimerEvent: {}
+[28.870019] (-) TimerEvent: {}
+[28.971111] (-) TimerEvent: {}
+[29.073129] (-) TimerEvent: {}
+[29.086329] (robot_msg) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/speech_data__type_support_c.cpp.o\x1b[0m\n'}
+[29.173387] (-) TimerEvent: {}
+[29.275421] (-) TimerEvent: {}
+[29.377080] (-) TimerEvent: {}
+[29.479070] (-) TimerEvent: {}
+[29.581014] (-) TimerEvent: {}
+[29.682036] (-) TimerEvent: {}
+[29.783060] (-) TimerEvent: {}
+[29.884105] (-) TimerEvent: {}
+[30.594532] (robot_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/msg/extreme_sensor_alert__type_support.cpp.o\x1b[0m\n'}
+[30.595485] (-) TimerEvent: {}
+[30.596037] (robot_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/srv/cloud_command__type_support.cpp.o\x1b[0m\n'}
+[30.596748] (robot_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/sound_location__type_support_c.cpp.o\x1b[0m\n'}
+[30.695741] (-) TimerEvent: {}
+[30.796723] (-) TimerEvent: {}
+[30.897745] (-) TimerEvent: {}
+[31.095645] (robot_msg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[31.096637] (-) TimerEvent: {}
+[31.197549] (-) TimerEvent: {}
+[31.298579] (-) TimerEvent: {}
+[31.399545] (-) TimerEvent: {}
+[31.500457] (-) TimerEvent: {}
+[31.601378] (-) TimerEvent: {}
+[31.702310] (-) TimerEvent: {}
+[31.803255] (-) TimerEvent: {}
+[31.904267] (-) TimerEvent: {}
+[32.005259] (-) TimerEvent: {}
+[32.106172] (-) TimerEvent: {}
+[32.207099] (-) TimerEvent: {}
+[32.308005] (-) TimerEvent: {}
+[32.408937] (-) TimerEvent: {}
+[32.509820] (-) TimerEvent: {}
+[32.610710] (-) TimerEvent: {}
+[32.711599] (-) TimerEvent: {}
+[32.812488] (-) TimerEvent: {}
+[32.913390] (-) TimerEvent: {}
+[33.014310] (-) TimerEvent: {}
+[33.115336] (-) TimerEvent: {}
+[33.131723] (robot_msg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/srv/get_temperature_and_humidity__type_support.cpp.o\x1b[0m\n'}
+[33.188388] (robot_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/processed_speech__type_support.cpp.o\x1b[0m\n'}
+[33.194960] (robot_msg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/sound_location__type_support.c.o\x1b[0m\n'}
+[33.215628] (-) TimerEvent: {}
+[33.257093] (robot_msg) StdoutLine: {'line': b'[ 47%] Built target robot_msg__rosidl_typesupport_c\n'}
+[33.308743] (robot_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/processed_speech__type_support.c.o\x1b[0m\n'}
+[33.315885] (-) TimerEvent: {}
+[33.393878] (robot_msg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/sound_location__type_support.cpp.o\x1b[0m\n'}
+[33.416170] (-) TimerEvent: {}
+[33.432494] (robot_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/processed_speech__type_support.cpp.o\x1b[0m\n'}
+[33.437125] (robot_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/sound_type__type_support.cpp.o\x1b[0m\n'}
+[33.516464] (-) TimerEvent: {}
+[33.541132] (robot_msg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/sound_type__type_support.c.o\x1b[0m\n'}
+[33.616768] (-) TimerEvent: {}
+[33.718678] (-) TimerEvent: {}
+[33.809277] (robot_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/speaker_identity__type_support.c.o\x1b[0m\n'}
+[33.818938] (-) TimerEvent: {}
+[33.920654] (-) TimerEvent: {}
+[34.022506] (-) TimerEvent: {}
+[34.121648] (robot_msg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/msg/detail/extreme_sensor_alert__type_support.c.o\x1b[0m\n'}
+[34.122910] (-) TimerEvent: {}
+[34.224050] (-) TimerEvent: {}
+[34.326028] (-) TimerEvent: {}
+[34.427904] (-) TimerEvent: {}
+[34.529893] (-) TimerEvent: {}
+[34.618814] (robot_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/srv/detail/get_temperature_and_humidity__type_support.c.o\x1b[0m\n'}
+[34.630177] (-) TimerEvent: {}
+[34.731494] (-) TimerEvent: {}
+[34.832694] (-) TimerEvent: {}
+[34.933946] (-) TimerEvent: {}
+[34.946430] (robot_msg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/srv/detail/cloud_command__type_support.c.o\x1b[0m\n'}
+[35.034243] (-) TimerEvent: {}
+[35.135488] (-) TimerEvent: {}
+[35.236674] (-) TimerEvent: {}
+[35.270077] (robot_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library librobot_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[35.336961] (-) TimerEvent: {}
+[35.383702] (robot_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/processed_speech__type_support_c.cpp.o\x1b[0m\n'}
+[35.437255] (-) TimerEvent: {}
+[35.459353] (robot_msg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/srv/cloud_command__type_support.cpp.o\x1b[0m\n'}
+[35.491037] (robot_msg) StdoutLine: {'line': b'[ 60%] Built target robot_msg__rosidl_typesupport_introspection_c\n'}
+[35.537558] (-) TimerEvent: {}
+[35.586197] (robot_msg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/speaker_identity__type_support.cpp.o\x1b[0m\n'}
+[35.637844] (-) TimerEvent: {}
+[35.681872] (robot_msg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/sound_type__type_support_c.cpp.o\x1b[0m\n'}
+[35.738127] (-) TimerEvent: {}
+[35.839849] (-) TimerEvent: {}
+[35.941702] (-) TimerEvent: {}
+[36.043375] (-) TimerEvent: {}
+[36.145121] (-) TimerEvent: {}
+[36.246824] (-) TimerEvent: {}
+[36.348510] (-) TimerEvent: {}
+[36.450613] (-) TimerEvent: {}
+[36.552732] (-) TimerEvent: {}
+[36.622011] (robot_msg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/msg/detail/extreme_sensor_alert__type_support.cpp.o\x1b[0m\n'}
+[36.645261] (robot_msg) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/speaker_identity__type_support_c.cpp.o\x1b[0m\n'}
+[36.653030] (-) TimerEvent: {}
+[36.754683] (-) TimerEvent: {}
+[36.856441] (-) TimerEvent: {}
+[36.958069] (-) TimerEvent: {}
+[37.060259] (-) TimerEvent: {}
+[37.162075] (-) TimerEvent: {}
+[37.164951] (robot_msg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/sound_type__type_support.cpp.o\x1b[0m\n'}
+[37.262357] (-) TimerEvent: {}
+[37.364303] (-) TimerEvent: {}
+[37.466446] (-) TimerEvent: {}
+[37.475251] (robot_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/srv/detail/get_temperature_and_humidity__type_support.cpp.o\x1b[0m\n'}
+[37.566760] (-) TimerEvent: {}
+[37.668843] (-) TimerEvent: {}
+[37.737519] (robot_msg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[37.769091] (-) TimerEvent: {}
+[37.870221] (-) TimerEvent: {}
+[37.971463] (-) TimerEvent: {}
+[38.072763] (-) TimerEvent: {}
+[38.118815] (robot_msg) StdoutLine: {'line': b'[ 68%] Built target robot_msg__rosidl_typesupport_cpp\n'}
+[38.169778] (robot_msg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/speaker_identity__type_support.cpp.o\x1b[0m\n'}
+[38.173061] (-) TimerEvent: {}
+[38.212842] (robot_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/srv/detail/cloud_command__type_support.cpp.o\x1b[0m\n'}
+[38.273361] (-) TimerEvent: {}
+[38.375106] (-) TimerEvent: {}
+[38.476863] (-) TimerEvent: {}
+[38.579068] (-) TimerEvent: {}
+[38.621896] (robot_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/msg/detail/dds_fastrtps/extreme_sensor_alert__type_support.cpp.o\x1b[0m\n'}
+[38.670447] (robot_msg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/srv/detail/dds_fastrtps/get_temperature_and_humidity__type_support.cpp.o\x1b[0m\n'}
+[38.679297] (-) TimerEvent: {}
+[38.780860] (-) TimerEvent: {}
+[38.882533] (-) TimerEvent: {}
+[38.984170] (-) TimerEvent: {}
+[39.085924] (-) TimerEvent: {}
+[39.187906] (-) TimerEvent: {}
+[39.290039] (-) TimerEvent: {}
+[39.392173] (-) TimerEvent: {}
+[39.494237] (-) TimerEvent: {}
+[39.596359] (-) TimerEvent: {}
+[39.631382] (robot_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/msg/detail/extreme_sensor_alert__type_support_c.cpp.o\x1b[0m\n'}
+[39.696770] (-) TimerEvent: {}
+[39.799183] (-) TimerEvent: {}
+[39.900969] (-) TimerEvent: {}
+[40.002660] (-) TimerEvent: {}
+[40.016619] (robot_msg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/srv/detail/get_temperature_and_humidity__type_support_c.cpp.o\x1b[0m\n'}
+[40.102974] (-) TimerEvent: {}
+[40.205160] (-) TimerEvent: {}
+[40.307227] (-) TimerEvent: {}
+[40.409346] (-) TimerEvent: {}
+[40.511465] (-) TimerEvent: {}
+[40.613764] (-) TimerEvent: {}
+[40.715484] (-) TimerEvent: {}
+[40.817608] (-) TimerEvent: {}
+[40.837738] (robot_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/srv/detail/cloud_command__type_support_c.cpp.o\x1b[0m\n'}
+[40.917923] (-) TimerEvent: {}
+[41.019689] (-) TimerEvent: {}
+[41.121393] (-) TimerEvent: {}
+[41.223064] (-) TimerEvent: {}
+[41.275332] (robot_msg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/srv/detail/dds_fastrtps/cloud_command__type_support.cpp.o\x1b[0m\n'}
+[41.323372] (-) TimerEvent: {}
+[41.376302] (robot_msg) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[41.423647] (-) TimerEvent: {}
+[41.524936] (-) TimerEvent: {}
+[41.626187] (-) TimerEvent: {}
+[41.727430] (-) TimerEvent: {}
+[41.828673] (-) TimerEvent: {}
+[41.930327] (-) TimerEvent: {}
+[41.952167] (robot_msg) StdoutLine: {'line': b'[ 79%] Built target robot_msg__rosidl_typesupport_introspection_cpp\n'}
+[42.030562] (-) TimerEvent: {}
+[42.131609] (-) TimerEvent: {}
+[42.232645] (-) TimerEvent: {}
+[42.333659] (-) TimerEvent: {}
+[42.434639] (-) TimerEvent: {}
+[42.535594] (-) TimerEvent: {}
+[42.636544] (-) TimerEvent: {}
+[42.737518] (-) TimerEvent: {}
+[42.838501] (-) TimerEvent: {}
+[42.939552] (-) TimerEvent: {}
+[43.040555] (-) TimerEvent: {}
+[43.141598] (-) TimerEvent: {}
+[43.190432] (robot_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[43.241809] (-) TimerEvent: {}
+[43.342885] (-) TimerEvent: {}
+[43.443942] (-) TimerEvent: {}
+[43.544927] (-) TimerEvent: {}
+[43.645888] (-) TimerEvent: {}
+[43.677710] (robot_msg) StdoutLine: {'line': b'[ 80%] Built target robot_msg__rosidl_typesupport_fastrtps_c\n'}
+[43.746123] (-) TimerEvent: {}
+[43.801437] (robot_msg) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[43.846361] (-) TimerEvent: {}
+[43.947357] (-) TimerEvent: {}
+[44.048309] (-) TimerEvent: {}
+[44.149300] (-) TimerEvent: {}
+[44.250237] (-) TimerEvent: {}
+[44.303489] (robot_msg) StdoutLine: {'line': b'[ 81%] Built target robot_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[44.350460] (-) TimerEvent: {}
+[44.390608] (robot_msg) StdoutLine: {'line': b'[ 81%] Built target robot_msg\n'}
+[44.450684] (-) TimerEvent: {}
+[44.479019] (robot_msg) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[44.550910] (-) TimerEvent: {}
+[44.651829] (-) TimerEvent: {}
+[44.752703] (-) TimerEvent: {}
+[44.853558] (-) TimerEvent: {}
+[44.954458] (-) TimerEvent: {}
+[45.055388] (-) TimerEvent: {}
+[45.156369] (-) TimerEvent: {}
+[45.257306] (-) TimerEvent: {}
+[45.358211] (-) TimerEvent: {}
+[45.459139] (-) TimerEvent: {}
+[45.560032] (-) TimerEvent: {}
+[45.660954] (-) TimerEvent: {}
+[45.761853] (-) TimerEvent: {}
+[45.862743] (-) TimerEvent: {}
+[45.963622] (-) TimerEvent: {}
+[46.064517] (-) TimerEvent: {}
+[46.165400] (-) TimerEvent: {}
+[46.266299] (-) TimerEvent: {}
+[46.367196] (-) TimerEvent: {}
+[46.468103] (-) TimerEvent: {}
+[46.569050] (-) TimerEvent: {}
+[46.669942] (-) TimerEvent: {}
+[46.770840] (-) TimerEvent: {}
+[46.871728] (-) TimerEvent: {}
+[46.972630] (-) TimerEvent: {}
+[47.073525] (-) TimerEvent: {}
+[47.174457] (-) TimerEvent: {}
+[47.275440] (-) TimerEvent: {}
+[47.376413] (-) TimerEvent: {}
+[47.477335] (-) TimerEvent: {}
+[47.578251] (-) TimerEvent: {}
+[47.679194] (-) TimerEvent: {}
+[47.780087] (-) TimerEvent: {}
+[47.881010] (-) TimerEvent: {}
+[47.981905] (-) TimerEvent: {}
+[48.082784] (-) TimerEvent: {}
+[48.183683] (-) TimerEvent: {}
+[48.284601] (-) TimerEvent: {}
+[48.385531] (-) TimerEvent: {}
+[48.486424] (-) TimerEvent: {}
+[48.587325] (-) TimerEvent: {}
+[48.688235] (-) TimerEvent: {}
+[48.789170] (-) TimerEvent: {}
+[48.890050] (-) TimerEvent: {}
+[48.990958] (-) TimerEvent: {}
+[49.091854] (-) TimerEvent: {}
+[49.192789] (-) TimerEvent: {}
+[49.293731] (-) TimerEvent: {}
+[49.394644] (-) TimerEvent: {}
+[49.495495] (-) TimerEvent: {}
+[49.596350] (-) TimerEvent: {}
+[49.697212] (-) TimerEvent: {}
+[49.798081] (-) TimerEvent: {}
+[49.898985] (-) TimerEvent: {}
+[49.999857] (-) TimerEvent: {}
+[50.100730] (-) TimerEvent: {}
+[50.201611] (-) TimerEvent: {}
+[50.302479] (-) TimerEvent: {}
+[50.403358] (-) TimerEvent: {}
+[50.504251] (-) TimerEvent: {}
+[50.605136] (-) TimerEvent: {}
+[50.706023] (-) TimerEvent: {}
+[50.806915] (-) TimerEvent: {}
+[50.907823] (-) TimerEvent: {}
+[51.008726] (-) TimerEvent: {}
+[51.109638] (-) TimerEvent: {}
+[51.210532] (-) TimerEvent: {}
+[51.311455] (-) TimerEvent: {}
+[51.412417] (-) TimerEvent: {}
+[51.513506] (-) TimerEvent: {}
+[51.614433] (-) TimerEvent: {}
+[51.715383] (-) TimerEvent: {}
+[51.816332] (-) TimerEvent: {}
+[51.917251] (-) TimerEvent: {}
+[52.018183] (-) TimerEvent: {}
+[52.119172] (-) TimerEvent: {}
+[52.220076] (-) TimerEvent: {}
+[52.320974] (-) TimerEvent: {}
+[52.421886] (-) TimerEvent: {}
+[52.522715] (-) TimerEvent: {}
+[52.623537] (-) TimerEvent: {}
+[52.724347] (-) TimerEvent: {}
+[52.825207] (-) TimerEvent: {}
+[52.926056] (-) TimerEvent: {}
+[53.026906] (-) TimerEvent: {}
+[53.127757] (-) TimerEvent: {}
+[53.228642] (-) TimerEvent: {}
+[53.329490] (-) TimerEvent: {}
+[53.430333] (-) TimerEvent: {}
+[53.531185] (-) TimerEvent: {}
+[53.632066] (-) TimerEvent: {}
+[53.732931] (-) TimerEvent: {}
+[53.833778] (-) TimerEvent: {}
+[53.934636] (-) TimerEvent: {}
+[54.035490] (-) TimerEvent: {}
+[54.136336] (-) TimerEvent: {}
+[54.237206] (-) TimerEvent: {}
+[54.338081] (-) TimerEvent: {}
+[54.438987] (-) TimerEvent: {}
+[54.539851] (-) TimerEvent: {}
+[54.640731] (-) TimerEvent: {}
+[54.741589] (-) TimerEvent: {}
+[54.842452] (-) TimerEvent: {}
+[54.943316] (-) TimerEvent: {}
+[55.044179] (-) TimerEvent: {}
+[55.145025] (-) TimerEvent: {}
+[55.245893] (-) TimerEvent: {}
+[55.346737] (-) TimerEvent: {}
+[55.447601] (-) TimerEvent: {}
+[55.548450] (-) TimerEvent: {}
+[55.649310] (-) TimerEvent: {}
+[55.750142] (-) TimerEvent: {}
+[55.850970] (-) TimerEvent: {}
+[55.951944] (-) TimerEvent: {}
+[56.052763] (-) TimerEvent: {}
+[56.153599] (-) TimerEvent: {}
+[56.254435] (-) TimerEvent: {}
+[56.355265] (-) TimerEvent: {}
+[56.456082] (-) TimerEvent: {}
+[56.556909] (-) TimerEvent: {}
+[56.657782] (-) TimerEvent: {}
+[56.758742] (-) TimerEvent: {}
+[56.859728] (-) TimerEvent: {}
+[56.956407] (robot_msg) StdoutLine: {'line': b'[ 82%] Built target robot_msg__py\n'}
+[56.959837] (-) TimerEvent: {}
+[57.053025] (robot_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_sound_type_s.c.o\x1b[0m\n'}
+[57.057021] (robot_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_speech_data_s.c.o\x1b[0m\n'}
+[57.057980] (robot_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_processed_speech_s.c.o\x1b[0m\n'}
+[57.058986] (robot_msg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/srv/_get_temperature_and_humidity_s.c.o\x1b[0m\n'}
+[57.059852] (robot_msg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_extreme_sensor_alert_s.c.o\x1b[0m\n'}
+[57.060550] (-) TimerEvent: {}
+[57.061502] (robot_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_speaker_identity_s.c.o\x1b[0m\n'}
+[57.063387] (robot_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/msg/_sound_location_s.c.o\x1b[0m\n'}
+[57.066271] (robot_msg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/srv/_cloud_command_s.c.o\x1b[0m\n'}
+[57.160840] (-) TimerEvent: {}
+[57.262438] (-) TimerEvent: {}
+[57.363983] (-) TimerEvent: {}
+[57.465398] (-) TimerEvent: {}
+[57.566838] (-) TimerEvent: {}
+[57.668302] (-) TimerEvent: {}
+[57.770086] (-) TimerEvent: {}
+[57.871687] (-) TimerEvent: {}
+[57.930661] (robot_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/librobot_msg__rosidl_generator_py.so\x1b[0m\n'}
+[57.971903] (-) TimerEvent: {}
+[58.072829] (-) TimerEvent: {}
+[58.173729] (-) TimerEvent: {}
+[58.189973] (robot_msg) StdoutLine: {'line': b'[ 93%] Built target robot_msg__rosidl_generator_py\n'}
+[58.273950] (-) TimerEvent: {}
+[58.284920] (robot_msg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[58.285831] (robot_msg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[58.286494] (robot_msg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[58.374164] (-) TimerEvent: {}
+[58.475142] (-) TimerEvent: {}
+[58.576091] (-) TimerEvent: {}
+[58.677038] (-) TimerEvent: {}
+[58.778021] (-) TimerEvent: {}
+[58.879069] (-) TimerEvent: {}
+[58.980036] (-) TimerEvent: {}
+[59.030717] (robot_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[59.035312] (robot_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[59.036280] (robot_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[59.080256] (-) TimerEvent: {}
+[59.181247] (-) TimerEvent: {}
+[59.269848] (robot_msg) StdoutLine: {'line': b'[100%] Built target robot_msg__rosidl_typesupport_c__pyext\n'}
+[59.276770] (robot_msg) StdoutLine: {'line': b'[100%] Built target robot_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[59.277620] (robot_msg) StdoutLine: {'line': b'[100%] Built target robot_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[59.281394] (-) TimerEvent: {}
+[59.336272] (robot_msg) CommandEnded: {'returncode': 0}
+[59.339838] (robot_msg) JobProgress: {'identifier': 'robot_msg', 'progress': 'install'}
+[59.381703] (robot_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/TWStateMachine/build/robot_msg'], 'cwd': '/home/sunrise/TWStateMachine/build/robot_msg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1390'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/sunrise/miniconda3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '54525955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/miniconda3/condabin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1255,unix/ubuntu:/tmp/.ICE-unix/1255'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXesmOq8/agent.1389'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/sunrise/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/TWStateMachine/build/robot_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CONDA_EXE', '/home/sunrise/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[59.386938] (-) TimerEvent: {}
+[59.423241] (robot_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[59.424267] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/rosidl_interfaces/robot_msg\n'}
+[59.425333] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg\n'}
+[59.426063] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv\n'}
+[59.426970] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail\n'}
+[59.427806] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.h\n'}
+[59.428605] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__functions.h\n'}
+[59.429225] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.h\n'}
+[59.429780] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__functions.h\n'}
+[59.430307] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__struct.h\n'}
+[59.430810] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__functions.c\n'}
+[59.431338] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__functions.c\n'}
+[59.431908] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__struct.h\n'}
+[59.432418] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/get_temperature_and_humidity.h\n'}
+[59.432913] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/cloud_command.h\n'}
+[59.433475] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg\n'}
+[59.433984] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_type.h\n'}
+[59.434494] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/processed_speech.h\n'}
+[59.435003] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[59.435561] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail\n'}
+[59.436063] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.h\n'}
+[59.436572] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__struct.h\n'}
+[59.437072] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.h\n'}
+[59.437630] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__functions.h\n'}
+[59.438207] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__functions.h\n'}
+[59.438946] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__struct.h\n'}
+[59.439588] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.h\n'}
+[59.440370] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.h\n'}
+[59.440954] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__functions.c\n'}
+[59.441493] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__struct.h\n'}
+[59.442070] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__struct.h\n'}
+[59.442642] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__functions.c\n'}
+[59.443183] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.h\n'}
+[59.443703] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__functions.c\n'}
+[59.444267] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__functions.c\n'}
+[59.444779] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__functions.c\n'}
+[59.445285] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__functions.h\n'}
+[59.445791] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.h\n'}
+[59.446296] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__functions.c\n'}
+[59.446801] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__functions.h\n'}
+[59.447285] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__struct.h\n'}
+[59.447807] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__struct.h\n'}
+[59.448330] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__functions.h\n'}
+[59.448917] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__functions.h\n'}
+[59.449406] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/extreme_sensor_alert.h\n'}
+[59.449861] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_location.h\n'}
+[59.450299] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speech_data.h\n'}
+[59.450944] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speaker_identity.h\n'}
+[59.451512] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/library_path.sh\n'}
+[59.452027] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/library_path.dsv\n'}
+[59.452635] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_c.so\n'}
+[59.453146] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_c.so" to ""\n'}
+[59.453652] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg\n'}
+[59.454147] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv\n'}
+[59.454649] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail\n'}
+[59.455206] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_fastrtps_c.h\n'}
+[59.455663] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_fastrtps_c.h\n'}
+[59.456187] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg\n'}
+[59.456639] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail\n'}
+[59.457075] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_fastrtps_c.h\n'}
+[59.457571] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_fastrtps_c.h\n'}
+[59.458169] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_fastrtps_c.h\n'}
+[59.458720] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_fastrtps_c.h\n'}
+[59.459187] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_fastrtps_c.h\n'}
+[59.459695] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_fastrtps_c.h\n'}
+[59.460225] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[59.460742] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[59.461255] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[59.461868] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg\n'}
+[59.462375] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv\n'}
+[59.462888] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail\n'}
+[59.463433] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_introspection_c.h\n'}
+[59.463948] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.c\n'}
+[59.464453] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_introspection_c.h\n'}
+[59.465015] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.c\n'}
+[59.465523] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg\n'}
+[59.466031] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail\n'}
+[59.466533] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_introspection_c.h\n'}
+[59.467046] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.c\n'}
+[59.467555] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.c\n'}
+[59.468066] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.c\n'}
+[59.468556] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.c\n'}
+[59.469025] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_introspection_c.h\n'}
+[59.469466] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_introspection_c.h\n'}
+[59.469984] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_introspection_c.h\n'}
+[59.470492] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.c\n'}
+[59.470941] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_introspection_c.h\n'}
+[59.471383] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_introspection_c.h\n'}
+[59.471990] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.c\n'}
+[59.472601] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[59.473111] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_c.so\n'}
+[59.473624] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[59.474132] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_c.so\n'}
+[59.474644] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_c.so" to ""\n'}
+[59.475155] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg\n'}
+[59.475797] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv\n'}
+[59.476325] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail\n'}
+[59.476855] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__traits.hpp\n'}
+[59.477429] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.hpp\n'}
+[59.477941] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__struct.hpp\n'}
+[59.478574] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__builder.hpp\n'}
+[59.479125] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__struct.hpp\n'}
+[59.479720] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__traits.hpp\n'}
+[59.480227] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.hpp\n'}
+[59.480726] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__builder.hpp\n'}
+[59.481240] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/get_temperature_and_humidity.hpp\n'}
+[59.481748] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/cloud_command.hpp\n'}
+[59.482257] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg\n'}
+[59.482764] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[59.483325] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_type.hpp\n'}
+[59.483832] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail\n'}
+[59.484376] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__struct.hpp\n'}
+[59.484890] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__traits.hpp\n'}
+[59.485399] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.hpp\n'}
+[59.485906] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__struct.hpp\n'}
+[59.486466] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__builder.hpp\n'}
+[59.486960] (-) TimerEvent: {}
+[59.487461] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__traits.hpp\n'}
+[59.488012] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__builder.hpp\n'}
+[59.488578] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.hpp\n'}
+[59.489063] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__struct.hpp\n'}
+[59.489506] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__traits.hpp\n'}
+[59.490020] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.hpp\n'}
+[59.490518] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.hpp\n'}
+[59.491024] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__traits.hpp\n'}
+[59.491528] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__struct.hpp\n'}
+[59.492091] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__struct.hpp\n'}
+[59.492544] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.hpp\n'}
+[59.493205] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__builder.hpp\n'}
+[59.493779] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.hpp\n'}
+[59.494293] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__traits.hpp\n'}
+[59.494949] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__builder.hpp\n'}
+[59.495463] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__builder.hpp\n'}
+[59.495967] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__traits.hpp\n'}
+[59.496471] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__struct.hpp\n'}
+[59.497005] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__builder.hpp\n'}
+[59.497510] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/processed_speech.hpp\n'}
+[59.498031] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/sound_location.hpp\n'}
+[59.498496] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speech_data.hpp\n'}
+[59.499118] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/extreme_sensor_alert.hpp\n'}
+[59.499590] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/speaker_identity.hpp\n'}
+[59.500049] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg\n'}
+[59.500492] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv\n'}
+[59.500927] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail\n'}
+[59.501358] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/dds_fastrtps\n'}
+[59.501900] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.502566] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.503071] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg\n'}
+[59.503572] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail\n'}
+[59.504025] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.504589] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/dds_fastrtps\n'}
+[59.505160] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.505668] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.506178] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.506686] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.507195] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[59.507702] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[59.508208] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[59.508751] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[59.509272] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg\n'}
+[59.509840] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv\n'}
+[59.510414] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail\n'}
+[59.510871] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.511401] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__type_support.cpp\n'}
+[59.511854] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/cloud_command__type_support.cpp\n'}
+[59.512305] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/srv/detail/get_temperature_and_humidity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.512744] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg\n'}
+[59.513177] (robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail\n'}
+[59.513608] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.514210] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__type_support.cpp\n'}
+[59.514683] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__type_support.cpp\n'}
+[59.515138] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.515581] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__type_support.cpp\n'}
+[59.516178] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__type_support.cpp\n'}
+[59.516816] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__type_support.cpp\n'}
+[59.517405] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/sound_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.517882] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speaker_identity__type_support.cpp\n'}
+[59.518417] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/speech_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.519012] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/processed_speech__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.519546] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/include/robot_msg/robot_msg/msg/detail/extreme_sensor_alert__rosidl_typesupport_introspection_cpp.hpp\n'}
+[59.520054] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[59.520727] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[59.521701] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_cpp.so\n'}
+[59.522298] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[59.523058] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/pythonpath.sh\n'}
+[59.523953] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/pythonpath.dsv\n'}
+[59.524631] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info\n'}
+[59.525426] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[59.526270] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[59.526988] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[59.527501] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[59.528049] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg\n'}
+[59.528624] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv\n'}
+[59.529101] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_cloud_command.py\n'}
+[59.529627] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_cloud_command_s.c\n'}
+[59.530204] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_get_temperature_and_humidity_s.c\n'}
+[59.530723] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/__init__.py\n'}
+[59.531234] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_get_temperature_and_humidity.py\n'}
+[59.531752] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[59.532272] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/librobot_msg__rosidl_generator_py.so\n'}
+[59.532812] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[59.533375] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[59.533913] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[59.534422] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/__init__.py\n'}
+[59.534923] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg\n'}
+[59.535424] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speaker_identity.py\n'}
+[59.535934] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_location_s.c\n'}
+[59.536442] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_location.py\n'}
+[59.536945] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_type.py\n'}
+[59.537394] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_extreme_sensor_alert_s.c\n'}
+[59.537834] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speech_data_s.c\n'}
+[59.538296] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_extreme_sensor_alert.py\n'}
+[59.538832] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_processed_speech.py\n'}
+[59.539359] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_type_s.c\n'}
+[59.539848] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/__init__.py\n'}
+[59.540292] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speaker_identity_s.c\n'}
+[59.540723] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_processed_speech_s.c\n'}
+[59.541151] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speech_data.py\n'}
+[59.541632] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_c.c\n'}
+[59.542057] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[59.587178] (-) TimerEvent: {}
+[59.687958] (-) TimerEvent: {}
+[59.788834] (robot_msg) StdoutLine: {'line': b"Listing '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg'...\n"}
+[59.789706] (-) TimerEvent: {}
+[59.790168] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/__init__.py'...\n"}
+[59.790766] (robot_msg) StdoutLine: {'line': b"Listing '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg'...\n"}
+[59.791221] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/__init__.py'...\n"}
+[59.791681] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_extreme_sensor_alert.py'...\n"}
+[59.792107] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_processed_speech.py'...\n"}
+[59.792531] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_location.py'...\n"}
+[59.792954] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_sound_type.py'...\n"}
+[59.793376] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speaker_identity.py'...\n"}
+[59.793799] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/msg/_speech_data.py'...\n"}
+[59.794220] (robot_msg) StdoutLine: {'line': b"Listing '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv'...\n"}
+[59.794641] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/__init__.py'...\n"}
+[59.795062] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_cloud_command.py'...\n"}
+[59.795484] (robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_get_temperature_and_humidity.py'...\n"}
+[59.833390] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[59.834716] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[59.835553] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[59.836970] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[59.837783] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[59.839930] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[59.840919] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_py.so\n'}
+[59.843032] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/TWStateMachine/install/robot_msg/lib/librobot_msg__rosidl_generator_py.so" to ""\n'}
+[59.843745] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeechData.idl\n'}
+[59.844403] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundLocation.idl\n'}
+[59.845102] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ProcessedSpeech.idl\n'}
+[59.845784] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundType.idl\n'}
+[59.846412] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeakerIdentity.idl\n'}
+[59.847028] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ExtremeSensorAlert.idl\n'}
+[59.847863] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity.idl\n'}
+[59.848613] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand.idl\n'}
+[59.849349] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeechData.msg\n'}
+[59.850048] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundLocation.msg\n'}
+[59.850671] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ProcessedSpeech.msg\n'}
+[59.851356] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SoundType.msg\n'}
+[59.852062] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/SpeakerIdentity.msg\n'}
+[59.852688] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/msg/ExtremeSensorAlert.msg\n'}
+[59.853302] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity.srv\n'}
+[59.853972] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity_Request.msg\n'}
+[59.854685] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/GetTemperatureAndHumidity_Response.msg\n'}
+[59.855335] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand.srv\n'}
+[59.855955] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand_Request.msg\n'}
+[59.856634] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/srv/CloudCommand_Response.msg\n'}
+[59.857480] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/package_run_dependencies/robot_msg\n'}
+[59.858361] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/parent_prefix_path/robot_msg\n'}
+[59.859147] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/ament_prefix_path.sh\n'}
+[59.859828] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/ament_prefix_path.dsv\n'}
+[59.860529] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/path.sh\n'}
+[59.861207] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/environment/path.dsv\n'}
+[59.861891] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.bash\n'}
+[59.862565] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.sh\n'}
+[59.863311] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.zsh\n'}
+[59.863994] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/local_setup.dsv\n'}
+[59.864716] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/package.dsv\n'}
+[59.865534] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/ament_index/resource_index/packages/robot_msg\n'}
+[59.866475] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cExport.cmake\n'}
+[59.867201] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[59.867998] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[59.868773] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[59.869592] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[59.870326] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[59.871131] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cExport.cmake\n'}
+[59.871833] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[59.872600] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cppExport.cmake\n'}
+[59.873381] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[59.874171] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[59.875015] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[59.875823] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[59.876612] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cppExport.cmake\n'}
+[59.877403] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[59.878147] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_pyExport.cmake\n'}
+[59.878929] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[59.879640] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[59.880328] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[59.881084] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[59.881963] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[59.882752] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[59.883515] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[59.884308] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[59.885082] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msgConfig.cmake\n'}
+[59.885730] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/cmake/robot_msgConfig-version.cmake\n'}
+[59.886411] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/TWStateMachine/install/robot_msg/share/robot_msg/package.xml\n'}
+[59.889884] (-) TimerEvent: {}
+[59.896932] (robot_msg) CommandEnded: {'returncode': 0}
+[59.990027] (-) TimerEvent: {}
+[60.003233] (robot_msg) JobEnded: {'identifier': 'robot_msg', 'rc': 0}
+[60.006212] (-) EventReactorShutdown: {}

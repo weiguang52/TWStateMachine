@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_msg/srv/CloudCommand.srv
+// generated code does not contain a copyright notice
+
+
+module robot_msg {
+  module srv {
+    struct CloudCommand_Request {
+      @verbatim (language="comment", text=
+        "目标服务名，例如 /upload_image")
+      string target_service;
+
+      @verbatim (language="comment", text=
+        "输入参数json")
+      string payload_json;
+    };
+    struct CloudCommand_Response {
+      @verbatim (language="comment", text=
+        "输出参数json")
+      string response_json;
+    };
+  };
+};

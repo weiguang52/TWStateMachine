@@ -1,0 +1,79 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/robot_comm/robot_comm.egg-info
+writing ../../build/robot_comm/robot_comm.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_comm/robot_comm.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_comm/robot_comm.egg-info/entry_points.txt
+writing requirements to ../../build/robot_comm/robot_comm.egg-info/requires.txt
+writing top-level names to ../../build/robot_comm/robot_comm.egg-info/top_level.txt
+writing manifest file '../../build/robot_comm/robot_comm.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_comm/robot_comm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_comm/robot_comm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm
+copying robot_comm/main.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm
+copying robot_comm/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm
+creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node
+copying robot_comm/node/subscribers.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node
+copying robot_comm/node/cloud_service.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node
+copying robot_comm/node/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node
+creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc
+copying robot_comm/grpc/client.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc
+copying robot_comm/grpc/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc
+creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto
+copying robot_comm/grpc/proto/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto
+copying robot_comm/grpc/proto/robot_comm_pb2.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto
+copying robot_comm/grpc/proto/robot_comm_pb2_grpc.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto
+copying robot_comm/grpc/proto/media_stream_pb2.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto
+copying robot_comm/grpc/proto/media_stream_pb2_grpc.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto
+creating /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config
+copying robot_comm/config/settings.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config
+copying robot_comm/config/__init__.py -> /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config
+running install
+running install_lib
+creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm
+creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config/settings.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/config/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/main.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm
+creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc
+creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/robot_comm_pb2.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/robot_comm_pb2_grpc.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/media_stream_pb2.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/proto/media_stream_pb2_grpc.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/client.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/grpc/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc
+creating /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node/subscribers.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node/cloud_service.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node
+copying /home/sunrise/TWStateMachine/build/robot_comm/build/lib/robot_comm/node/__init__.py -> /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config/settings.py to settings.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/config/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/main.py to main.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/robot_comm_pb2.py to robot_comm_pb2.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/robot_comm_pb2_grpc.py to robot_comm_pb2_grpc.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/media_stream_pb2.py to media_stream_pb2.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/proto/media_stream_pb2_grpc.py to media_stream_pb2_grpc.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/client.py to client.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/grpc/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node/subscribers.py to subscribers.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node/cloud_service.py to cloud_service.cpython-310.pyc
+byte-compiling /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm/node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sunrise/TWStateMachine/install/robot_comm/share/ament_index/resource_index/packages
+copying resource/robot_comm -> /home/sunrise/TWStateMachine/install/robot_comm/share/ament_index/resource_index/packages
+copying package.xml -> /home/sunrise/TWStateMachine/install/robot_comm/share/robot_comm
+copying LICENSE -> /home/sunrise/TWStateMachine/install/robot_comm/share/robot_comm
+running install_egg_info
+Copying ../../build/robot_comm/robot_comm.egg-info to /home/sunrise/TWStateMachine/install/robot_comm/lib/python3.10/site-packages/robot_comm-0.0.1-py3.10.egg-info
+running install_scripts
+Installing robot_comm script to /home/sunrise/TWStateMachine/install/robot_comm/lib/robot_comm
+writing list of installed files to '/home/sunrise/TWStateMachine/build/robot_comm/install.log'

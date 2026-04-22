@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_msg/srv/GetTemperatureAndHumidity.srv
+// generated code does not contain a copyright notice
+
+
+module robot_msg {
+  module srv {
+    struct GetTemperatureAndHumidity_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetTemperatureAndHumidity_Response {
+      double temperature;
+
+      double humidity;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

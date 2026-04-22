@@ -1,0 +1,8 @@
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:msg/SpeechData.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:msg/SoundLocation.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:msg/ProcessedSpeech.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:msg/SoundType.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:msg/SpeakerIdentity.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:msg/ExtremeSensorAlert.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:srv/GetTemperatureAndHumidity.idl
+/home/sunrise/TWStateMachine/build/robot_msg/rosidl_adapter/robot_msg:srv/CloudCommand.idl

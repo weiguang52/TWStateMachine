@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msg/msg/SoundType.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module robot_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "声音类型识别结果")
+    struct SoundType {
+      @verbatim (language="comment", text=
+        "声音类别 (speech, music, noise, etc.)")
+      string sound_category;
+
+      @verbatim (language="comment", text=
+        "检测到的具体声音类型")
+      sequence<string> detected_sounds;
+
+      @verbatim (language="comment", text=
+        "对应的置信度分数")
+      sequence<float> confidence_scores;
+
+      builtin_interfaces::msg::Time timestamp;
+    };
+  };
+};

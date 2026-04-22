@@ -1,0 +1,13 @@
+{
+  "package_name": "robot_msg",
+  "non_idl_tuples": [
+    "/home/sunrise/TWStateMachine/src/robot_msg:msg/SpeechData.msg",
+    "/home/sunrise/TWStateMachine/src/robot_msg:msg/SoundLocation.msg",
+    "/home/sunrise/TWStateMachine/src/robot_msg:msg/ProcessedSpeech.msg",
+    "/home/sunrise/TWStateMachine/src/robot_msg:msg/SoundType.msg",
+    "/home/sunrise/TWStateMachine/src/robot_msg:msg/SpeakerIdentity.msg",
+    "/home/sunrise/TWStateMachine/src/robot_msg:msg/ExtremeSensorAlert.msg",
+    "/home/sunrise/TWStateMachine/src/robot_msg:srv/GetTemperatureAndHumidity.srv",
+    "/home/sunrise/TWStateMachine/src/robot_msg:srv/CloudCommand.srv"
+  ]
+}

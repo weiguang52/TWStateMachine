@@ -1,105 +1,422 @@
-# TWStateMachine - 人形机器人状态机与控制系统
+# TWStateMachine
 
-`TWStateMachine` 是一个为人形机器人设计的、基于 ROS2 的复杂状态机和控制系统。项目核心在于 `robot_state_machine` 包，它采用双线程架构，结合了云端动作生成、本地运动学解算、多模态感知（视觉、听觉）以及多种机器人行为（搜寻、跟随、避障、扫描），最终实现对机器人28个自由度（DOF）的精确控制。
+基于 ROS 2 的机器人状态机与在线动作执行系统。
+
+`TWStateMachine` 用于接收上游生成的动作结果，并将其转换为机器人可执行的关节指令；同时结合视觉、音频、点云与打断信号，实现在线动作切换、平滑过渡和下游控制发送。当前版本的核心主逻辑为 `main_node_online_v2.py`。
+
+---
 
 ## 项目概述
 
-该项目旨在构建一个能够接收云端动作指令，并将其转化为机器人底层硬件可以执行的、平滑且安全的关节指令的软件系统。系统被设计为模块化，包含状态管理、通信、运动学解算和硬件协议等多个层面。
+本仓库面向机器人动作执行场景，提供以下能力：
 
-### 核心架构
+- 在线读取上游动作数据
+- 基于 IK 的动作重定向与插值处理
+- 双线程双队列的动作调度与实时发送
+- 基于 ROS 2 的多节点协同
+- 支持视觉、音频、点云与打断信号输入
+- 对接下游导纳控制与底层串口发送
 
-项目遵循标准的 ROS2 工作空间结构，主要由以下三个功能包组成：
+---
 
-1. **`robot_state_machine`**: 项目的核心，实现了机器人的主行为逻辑和状态管理。
-2. **`robot_msg`**: 定义了系统内部通信所需的自定义 ROS2 消息（`.msg`）和服务（`.srv`）。
-3. **`robot_comm`**: 一个独立的 ROS2 节点，负责收集机器人传感器数据并通过 gRPC 上报给云端服务器。
+## 工作空间结构
 
-### `robot_state_machine` 详解
+仓库采用标准 ROS 2 workspace 结构，`src` 下主要包含以下包：
 
-这是系统的“大脑”，其主节点 `main_node` 采用双线程并发模型，以确保实时性和响应性：
+```text
+src/
+├── robot_state_machine/
+├── robot_msg/
+└── robot_comm/
+```
 
-* **线程 A (数据处理层)**: 负责从云端（通过HTTP客户端）或本地文件系统获取高级动作序列（`.npy` 格式）。它对动作数据进行预处理，包括分块、避障检查、IK（逆运动学）重定向、以及三次样条插值，最终生成高频（100Hz）的关节角度命令帧，并将其放入一个共享的命令队列中。
+### `robot_state_machine`
 
-* **线程 B (指令执行层)**: 从命令队列中取出关节指令。它根据机器人当前的内部状态（如“跟随”、“搜寻”）和外部传感器输入（如视觉、听觉），对指令进行动态调整。例如，在“跟随”状态下，它会将云端动作与头部/身体的转向命令进行合并。最终，它通过串口将精确的指令发送给机器人硬件。
+主控制包，包含状态机主节点、联调测试节点、搜索/扫描/避障模块及相关工具代码。
 
-## 主要功能
+### `robot_msg`
 
-- **双线程状态机**: 解耦了高延迟的数据处理与低延迟的硬件控制，确保机器人动作的流畅性。
-- **多行为模块**: 
-  - **跟随模块 (`FollowModule`)**: 基于视觉或听觉信息，实现对目标的锁定和跟随。
-  - **搜寻模块 (`SearchModule`)**: 在目标丢失后，根据声源定位（DOA）或预设路径执行主动搜寻策略。
-  - **扫描模块 (`ScanModule`)**: 在空闲时执行环境扫描，以发现感兴趣的目标。
-  - **避障模块 (`ObstacleAvoidanceModule`)**: 基于点云数据检测障碍物，并有能力生成避障轨迹。
-- **云端动作集成**: 内置 HTTP 客户端 (`CloudHTTPClient`)，可持续从云端服务器拉取由大型模型生成的动作序列。
-- **高级运动学解算**: 
-  - **IK 重定向 (`ik_redirection`)**: 使用 `Pinocchio` 和 `pink` 库，将基于人体模型的动作（如 SMPL）重定向到机器人的 URDF 模型上，解算出精确的关节角度。
-  - **动作平滑与插值**: 使用三次样条插值 (`cubic_spline`) 将低频的规划动作（~20Hz）平滑插值为高频的控制指令（100Hz），并使用 `easy_MotionInterpolator` 在不同动作序列之间创建平滑过渡。
-- **多模态感知**: 订阅视觉、听觉和点云等多种传感器信息，用于触发不同的行为状态。
-- **硬件通信协议**: 实现了通过串口与机器人底层驱动板通信的协议 (`robot_protocol`)，包括CRC校验和精确的关节角度/电流编码。
-- **gRPC 通信**: 包含用于数据上报（`robot_comm`）和流式会话（`voice_agent`）的 gRPC 客户端与服务端存根。
+自定义消息与服务定义包。
 
-## 工具与实用程序代码
+### `robot_comm`
 
-项目在 `robot_state_machine/utils/` 目录下包含了大量可复用的工具代码，这些是整个系统的关键技术支撑：
+通信相关配套包，用于扩展外围数据采集与上报能力。
 
-| 模块/文件                                      | 功能描述                                              |
-|:------------------------------------------ |:------------------------------------------------- |
-| `IK_Redirection/`                          | 包含使用 `Pinocchio` 进行逆运动学解算的核心逻辑，将 SMPL 动作映射到机器人模型。 |
-| `Interpolation/easy_MotionInterpolator.py` | 实现两个动作序列之间的平滑过渡，并包含碰撞检测逻辑。                        |
-| `cubic_spline.py`                          | 提供三次样条插值功能，用于提升动作序列的帧率以匹配硬件控制频率。                  |
-| `gazeShifting_mechanism_simulation.py`     | 实现头-身协同运动策略，模拟更自然的注视和转向行为。                        |
-| `robot_protocol.py`                        | 定义了与机器人硬件通信的底层串口协议，包括指令打包、CRC8校验和数据解析。            |
-| `admittance_calculate.py`                  | 导纳控制计算模块，并包含将关节名称映射到具体硬件板卡和电机ID的逻辑。               |
+---
 
-### 数据处理与调试工具
+## 当前启动方式
 
-| 脚本文件                  | 功能描述                                                                                                                     |
-|:--------------------- |:------------------------------------------------------------------------------------------------------------------------ |
-| `readnpy.py`          | 将文件夹内所有的 `.npy` 文件（包括内含 `object` 类型的）转换为人类可读的 `.txt` 文件。                                                                 |
-| `readnpz.py`          | 检查文件夹内所有 `.npz` 文件的内部结构，打印其中包含的所有键名、数据形状和类型。                                                                             |
-| `split_npz.py`        | 将一个 `.npz` 文件中包含的多个数组，拆分成独立的 `.npy` 文件。                                                                                  |
-| `monitor_npy.py`      | 监视指定的 `.npy` 文件，当其内容变为空或非空时触发回调。用于在线模式下感知云端动作是否已准备就绪。                                                                    |
-| `online_npy_test.py`  | 包含 `OnlineNPYLoader` 类，这是一个在独立线程中监控 `.npy` 文件更新的加载器，文件变化时会自动加载并追加到动作帧列表中。                                                |
+当前系统通过以下 launch 文件启动：
 
-### 可视化与测试工具
+```bash
+ros2 launch robot_state_machine robot_state_machine.launch.py
+```
 
-| 脚本文件                                | 功能描述                                                                          |
-|:----------------------------------- |:----------------------------------------------------------------------------- |
-| `IK_Redirection/npy_visual.py`      | 使用 `matplotlib` 将 `.npy` 文件中的 3D 骨架动作序列可视化为 GIF 动画。                           |
-| `IK_Redirection/txt_visual.py`      | 使用 `Pinocchio` 和 `Meshcat`，读取一个包含 28-DOF 关节角度的 `.txt` 文件，并在 3D 环境中回放机器人模型的动作。 |
-| `robot_protocol_out.py`             | 一个简单的串口发送脚本，用于直接向硬件发送十六进制字节流，测试底层通信。                                          |
-| `robot_protocol_single.py`          | `robot_protocol.py` 的简化版，用于单次、非线程安全的指令收发测试。                                   |
-| `robot_protocol_trajectory_test.py` | 在 `robot_protocol` 的基础上增加了轨迹规划功能，用于测试发送连续的、平滑的关节指令。                           |
+该 launch 默认启动以下节点：
 
-## 如何运行
+- `main_node` → `main_node_online_v2.py`
+- `out_node` → `out_node.py`
+- `send_node` → `utils/admittance_calculate.py`
 
-该项目是一个 ROS2 包，其运行依赖于 ROS2 环境和相关的 Python 库。
+---
 
-1. **环境准备**: 
-   
-   - 安装 ROS2 (推荐 Humble)。
-   - 根据 `package.xml` 中的依赖项，确保 `rclpy`, `std_msgs`, `geometry_msgs`, `sensor_msgs` 等已安装。
-   - 安装 Python 依赖库，如 `numpy`, `scipy`, `torch`, `smplx`, `pinocchio`, `grpcio` 等。
+## 核心节点说明
 
-2. **编译工作空间**:
-   
-   - 将 `TWStateMachine` 项目的三个包 (`robot_state_machine`, `robot_msg`, `robot_comm`) 放置于 ROS2 工作空间的 `src` 目录下。
-   - 在工作空间根目录运行 `colcon build` 进行编译。
+## 1. `main_node_online_v2.py`
 
-3. **启动节点**:
-   
-   - 使用 `ros2 launch` 命令启动项目。根据 `robot_state_machine.launch.py` 文件，系统会启动 `main_node`、`out_node`（模拟外部传感器）和 `send_node`（导纳计算）。
-     
-     ```bash
-     source install/setup.bash
-     ros2 launch robot_state_machine robot_state_machine.launch.py
-     ```
+当前版本的主状态机节点，也是本仓库的核心逻辑入口。
 
-4. **模拟与测试**:
-   
-   - `out_node.py` 是一个模拟节点，它能够根据预设的多种场景（如跟随、搜寻、避障、打断测试等）发布模拟的传感器数据，用于在没有真实硬件的情况下测试主状态机的行为和鲁棒性。
-   - `edge_min_hw_pipeline.py` 提供了一个端到端的离线测试脚本，可以直接将一个 `.npy` 文件通过完整的 IK、插值和串口协议流程，最终输出硬件指令，非常适合用于快速验证算法和硬件通信。
+### 主要职责
 
-## 总结
+- 监听上游动作文件（当前默认路径为 `/tmp/robot_action.npy`）
+- 对动作数据执行 IK 重定向与插值
+- 使用双线程双队列完成“动作处理”和“实时发送”解耦
+- 接收视觉、音频、点云和打断信号
+- 发布机器人关节控制指令
 
-`TWStateMachine` 是一个功能全面、架构复杂的机器人控制系统。它不仅展示了如何将高级AI模型生成的动作落地到物理硬件，还包含了大量在机器人学中非常实用的工程实践，如多线程架构、状态驱动的行为逻辑、运动学解算链、以及模块化的工具库。对于学习和开发人形机器人软件系统而言，这是一个极具价值的参考项目。
+### 主流程
+
+主节点可以概括为以下执行链路：
+
+```text
+上游动作文件 -> 动作读取 -> IK/插值 -> 命令帧生成 -> 实时发送 -> 下游控制
+```
+
+### 线程模型
+
+系统采用双线程双队列结构：
+
+#### 线程 A：动作处理线程
+
+负责：
+
+- 读取新动作数据
+- 执行 IK 与插值
+- 生成标准命令帧
+- 将结果写入队列 A
+
+#### 线程 B：实时发送线程
+
+负责：
+
+- 以固定频率从队列中取出命令帧
+- 在低水位时从队列 A 批量补帧
+- 将结果发送至下游控制链路
+- 在打断场景下保持执行连续性
+
+### 打断机制
+
+当前版本支持在线打断与平滑切换，逻辑如下：
+
+- 线程 B 在收到打断后，先复制当前剩余执行帧，保证旧动作不断流
+- 线程 A 清理旧缓存并等待新动作
+- 新动作到达后，线程 A 基于“旧动作末帧”和“新动作首帧”做过渡插值
+- 最终实现平滑切换，而不是直接跳变
+
+该机制适用于机器人在线重规划和实时动作替换场景。
+
+---
+
+## 2. `out_node.py`
+
+联调与仿真测试节点，用于在没有完整外部系统时模拟输入信号。
+
+### 主要作用
+
+- 模拟视觉输入
+- 模拟音频输入
+- 模拟点云输入
+- 模拟搜索命令
+- 模拟打断信号
+
+### 适用场景
+
+- 本地联调
+- 状态机逻辑验证
+- 话题接口验证
+- 无真实感知系统时的联通测试
+
+---
+
+## 3. `admittance_calculate.py`
+
+该节点在 launch 中以 `send_node` 启动，承担下游导纳控制与底层发送职责。
+
+### 主要职责
+
+- 订阅主节点发布的关节命令
+- 执行导纳控制与碰撞处理
+- 对接底层控制协议
+- 发布机器人反馈信息
+
+可以将其理解为：
+
+- `main_node_online_v2.py` 负责“生成要执行什么”
+- `admittance_calculate.py` 负责“安全地发送到机器人底层”
+
+---
+
+## ROS 2 话题说明
+
+### 主节点订阅
+
+- `/search_command`
+- `/vision_info`
+- `/audio_info`
+- `/point_cloud`
+- `/interrupt_signal`
+
+### 主节点发布
+
+- `/current_state`
+- `/joint_command`
+- `/robot_feedback`
+
+### 发送节点订阅 / 发布
+
+- 订阅：`/joint_command`
+- 发布：`/robot_feedback`
+
+---
+
+## 系统链路示意
+
+```text
+上游动作文件(/tmp/robot_action.npy)
+        |
+        v
+main_node_online_v2.py
+  - 动作读取
+  - IK重定向
+  - 插值与状态调度
+  - 感知输入融合
+  - 发布 /joint_command
+        |
+        v
+admittance_calculate.py
+  - 导纳控制
+  - 碰撞处理
+  - 下游协议发送
+  - 发布 /robot_feedback
+
+out_node.py
+  - 用于仿真和联调
+  - 模拟外部输入话题
+```
+
+### 最小可运行组合
+
+如果仅需跑通主链路，最小组合如下：
+
+- `main_node_online_v2.py`
+- `admittance_calculate.py`
+
+如果需要仿真联调，则再加入：
+
+- `out_node.py`
+
+---
+
+## 上游动作输入
+
+当前主节点默认从以下路径读取动作数据：
+
+```bash
+/tmp/robot_action.npy
+```
+
+如果上游系统负责生成动作，只需按照约定写入该文件，主节点即可自动加载并执行后续处理。
+
+---
+
+## 依赖环境
+
+本项目基于 ROS 2 Python 包构建，`robot_state_machine` 为 `ament_python` 包。
+
+主要 ROS 依赖包括：
+
+- `rclpy`
+- `std_msgs`
+- `geometry_msgs`
+- `sensor_msgs`
+
+此外，运行过程中还依赖若干 Python 算法与工具库。
+
+```bash
+conda create -n gvhmr python=3.10
+conda activate gvhmr
+```
+
+其中gvhmr为环境名称，可自修修改
+
+```bash
+pip install chumpy==0.70 --no-build-isolation
+pip install pin-pink
+```
+
+然后手动 pip install 以下功能包：
+
+```bash
+pip install contourpy==1.3.2
+```
+
+```bash
+pip install fvcore==0.1.5.post20221221
+```
+
+```bash
+pip install gymnasium==1.2.3
+```
+
+```bash
+pip install imageio==2.34.1
+```
+
+```bash
+pip install lapx==0.9.4
+```
+
+```bash
+pip install lightning==2.3.0
+```
+
+```bash
+pip install torchmetrics==1.8.2
+```
+
+```bash
+pip install matplotlib==3.10.8
+```
+
+```bash
+pip install mediapy==1.2.5
+```
+
+```bash
+pip install mujoco==3.4.0
+```
+
+```bash
+pip install numpy-stl==3.2.0
+```
+
+```bash
+pip install opencv-python==4.11.0.86
+```
+
+```bash
+pip install pandas==2.3.3
+```
+
+```bash
+pip install pycolmap==3.13.0
+```
+
+```bash
+pip install qpsolvers==4.8.2
+```
+
+```bash
+pip install quadprog==0.1.13
+```
+
+```bash
+pip install scipy==1.15.3
+```
+
+```bash
+pip install seaborn==0.13.2
+```
+
+```bash
+pip install torchvision==0.18.0
+```
+
+```bash
+pip install transforms3d==0.4.2
+```
+
+```bash
+pip install trimesh==4.11.0
+```
+
+```bash
+pip install ultralytics==8.2.42
+```
+
+```bash
+pip install ultralytics-thop==2.0.18
+```
+
+```bash
+pip install wis3d==1.0.1
+```
+
+然后执行环境配置文件中其他功能包的安装：
+
+```bash
+conda env create -f environment.yml
+```
+
+然后确定 CUDA 是否安装
+
+```bash
+python -c "import torch; print('PyTorch版本：', torch.__version__); print('CUDA可用：', torch.cuda.is_available())"
+>> PyTorch版本： 2.3.0+cu121
+>> CUDA可用： True
+```
+
+确定安装后，执行：
+
+```bash
+sudo apt update && sudo apt install -y gcc g++ libpng-dev libjpeg-dev
+```
+
+```bash
+pip install pybind11 fvcore iopath numpy==2.2.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+安装PyTorch3D：
+
+```bash
+pip install "git+https://github.com/facebookresearch/pytorch3d.git" --no-build-isolation -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+安装 smplx
+
+```bash
+cd smplx-master/
+
+pip install -e .
+```
+
+安装 smpl_sim
+
+```bash
+cd ..
+
+cd SMPLSim-master/
+
+pip install -e .
+```
+
+最后把numpy版本更改过来
+
+```bash
+pip uninstall numpy -y
+
+pip install numpy==1.23.5
+```
+
+---
+
+## 推荐使用方式
+
+### 本地联调
+
+适用于状态机逻辑验证与动作切换测试：
+
+```bash
+source install/setup.bash
+ros2 launch robot_state_machine robot_state_machine.launch.py
+```
