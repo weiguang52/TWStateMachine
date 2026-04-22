@@ -355,6 +355,7 @@ pip install wis3d==1.0.1
 然后执行环境配置文件中其他功能包的安装：
 
 ```bash
+cd /home/sunrise/TWStateMachine/src/robot_state_machine/robot_state_machine/utils/python_env_set
 conda env create -f environment.yml
 ```
 
