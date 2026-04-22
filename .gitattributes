@@ -1,1 +1,2 @@
-*.pkl filter=lfs diff=lfs merge=lfs -text
+src/robot_state_machine/robot_state_machine/utils/IK_Redirection/data/smpl/SMPL_NEUTRAL.pkl filter=lfs diff=lfs merge=lfs -text
+src/robot_state_machine/robot_state_machine/utils/IK_V2/data/smpl/SMPL_NEUTRAL.pkl filter=lfs diff=lfs merge=lfs -text
