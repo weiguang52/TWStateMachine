@@ -1,6 +1,2 @@
-# 批量忽略smpl所有相关的pkl大文件
-**/smpl/**/*.pkl
 **/smpl/**/*.bin
 **/smpl/**/*.obj
-# 单独忽略根目录下的smpl大文件（兜底）
-src/robot_state_machine/robot_state_machine/utils/IK_Redirection/data/smpl/*.pkl
