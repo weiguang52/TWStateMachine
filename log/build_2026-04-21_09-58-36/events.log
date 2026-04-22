@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.002502] (-) JobUnselected: {'identifier': 'robot_comm'}
+[0.003760] (-) JobUnselected: {'identifier': 'robot_msg'}
+[0.004005] (robot_state_machine) JobQueued: {'identifier': 'robot_state_machine', 'dependencies': OrderedDict()}
+[0.005065] (robot_state_machine) JobStarted: {'identifier': 'robot_state_machine'}
+[0.098492] (-) TimerEvent: {}
+[0.199408] (-) TimerEvent: {}
+[0.300321] (-) TimerEvent: {}
+[0.401230] (-) TimerEvent: {}
+[0.502198] (-) TimerEvent: {}
+[0.603168] (-) TimerEvent: {}
+[0.704089] (-) TimerEvent: {}
+[0.804987] (-) TimerEvent: {}
+[0.905903] (-) TimerEvent: {}
+[1.006880] (-) TimerEvent: {}
+[1.107891] (-) TimerEvent: {}
+[1.208987] (-) TimerEvent: {}
+[1.309912] (-) TimerEvent: {}
+[1.410802] (-) TimerEvent: {}
+[1.512318] (-) TimerEvent: {}
+[1.613105] (-) TimerEvent: {}
+[1.714022] (-) TimerEvent: {}
+[1.814865] (-) TimerEvent: {}
+[1.915741] (-) TimerEvent: {}
+[2.016601] (-) TimerEvent: {}
+[2.117475] (-) TimerEvent: {}
+[2.218324] (-) TimerEvent: {}
+[2.319250] (-) TimerEvent: {}
+[2.420122] (-) TimerEvent: {}
+[2.521005] (-) TimerEvent: {}
+[2.621887] (-) TimerEvent: {}
+[2.722740] (-) TimerEvent: {}
+[2.823623] (-) TimerEvent: {}
+[2.924520] (-) TimerEvent: {}
+[3.025396] (-) TimerEvent: {}
+[3.126371] (-) TimerEvent: {}
+[3.227336] (-) TimerEvent: {}
+[3.328250] (-) TimerEvent: {}
+[3.429126] (-) TimerEvent: {}
+[3.529981] (-) TimerEvent: {}
+[3.630812] (-) TimerEvent: {}
+[3.731612] (-) TimerEvent: {}
+[3.832408] (-) TimerEvent: {}
+[3.933259] (-) TimerEvent: {}
+[4.034079] (-) TimerEvent: {}
+[4.135028] (-) TimerEvent: {}
+[4.235987] (-) TimerEvent: {}
+[4.336959] (-) TimerEvent: {}
+[4.342300] (robot_state_machine) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_state_machine', 'build', '--build-base', '/home/sunrise/TWStateMachine/build/robot_state_machine/build', 'install', '--record', '/home/sunrise/TWStateMachine/build/robot_state_machine/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/TWStateMachine/src/robot_state_machine', 'env': {'PYTHON_BASIC_REPL': '1', 'CONDA_PROMPT_MODIFIER': '(TWStateMachine)', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.31.30 52855 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '2', 'TERM_PROGRAM_VERSION': '1.109.5', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-30248115-55fb-4179-a8fd-72d24d0d6dad.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/sunrise/miniconda3', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sunrise/miniconda3/envs/TWStateMachine/bin:/home/sunrise/miniconda3/condabin:/home/sunrise/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-431efad4bf89c316.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/sunrise/.vscode-server/data/User/workspaceStorage/2a835657bc3d3b794c8e4c0acb09efec/ms-python.python/pythonrc.py', 'CONDA_PREFIX_1': '/home/sunrise/miniconda3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a57e9ee30e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sunrise/miniconda3/bin/python', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'TWStateMachine', '_CONDA_EXE': '/home/sunrise/miniconda3/bin/conda', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/TWStateMachine/build/robot_state_machine', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/home/sunrise/miniconda3/bin/conda', 'SSH_CONNECTION': '192.168.31.30 52855 192.168.31.206 22', 'PYTHONPATH': '/home/sunrise/TWStateMachine/build/robot_state_machine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/sunrise/miniconda3/envs/TWStateMachine', 'COLCON': '1'}, 'shell': False}
+[4.437163] (-) TimerEvent: {}
+[4.538069] (-) TimerEvent: {}
+[4.638907] (-) TimerEvent: {}
+[4.739725] (-) TimerEvent: {}
+[4.840524] (-) TimerEvent: {}
+[4.941318] (-) TimerEvent: {}
+[5.042086] (-) TimerEvent: {}
+[5.142866] (-) TimerEvent: {}
+[5.243703] (-) TimerEvent: {}
+[5.344510] (-) TimerEvent: {}
+[5.445309] (-) TimerEvent: {}
+[5.546112] (-) TimerEvent: {}
+[5.646939] (-) TimerEvent: {}
+[5.747729] (-) TimerEvent: {}
+[5.848538] (-) TimerEvent: {}
+[5.949121] (robot_state_machine) StdoutLine: {'line': b'running egg_info\n'}
+[5.950006] (-) TimerEvent: {}
+[6.049085] (robot_state_machine) StdoutLine: {'line': b'writing ../../build/robot_state_machine/robot_state_machine.egg-info/PKG-INFO\n'}
+[6.053324] (-) TimerEvent: {}
+[6.056106] (robot_state_machine) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_state_machine/robot_state_machine.egg-info/dependency_links.txt\n'}
+[6.057692] (robot_state_machine) StdoutLine: {'line': b'writing entry points to ../../build/robot_state_machine/robot_state_machine.egg-info/entry_points.txt\n'}
+[6.059563] (robot_state_machine) StdoutLine: {'line': b'writing requirements to ../../build/robot_state_machine/robot_state_machine.egg-info/requires.txt\n'}
+[6.060507] (robot_state_machine) StdoutLine: {'line': b'writing top-level names to ../../build/robot_state_machine/robot_state_machine.egg-info/top_level.txt\n'}
+[6.153537] (-) TimerEvent: {}
+[6.254413] (-) TimerEvent: {}
+[6.299013] (robot_state_machine) StdoutLine: {'line': b"reading manifest file '../../build/robot_state_machine/robot_state_machine.egg-info/SOURCES.txt'\n"}
+[6.330090] (robot_state_machine) StdoutLine: {'line': b"writing manifest file '../../build/robot_state_machine/robot_state_machine.egg-info/SOURCES.txt'\n"}
+[6.330984] (robot_state_machine) StdoutLine: {'line': b'running build\n'}
+[6.331624] (robot_state_machine) StdoutLine: {'line': b'running build_py\n'}
+[6.333719] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/main_node_online_npy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.335374] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/robot_pose_solver.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.336836] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/main_node.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.338365] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/search_follow_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.339779] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/obstacle_avoidance_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.340975] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/mpu_read_parse.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.342243] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/edge_min_hw_pipeline.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.343562] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/follow_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.344907] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/search_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.346306] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/external_force_state.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.347437] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/online_npy_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.348846] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.349877] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/out_node.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.351193] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/main_node_offline_npy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.352721] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/main_node_offline.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.354287] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/main_node_online_V2.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.354880] (-) TimerEvent: {}
+[6.355706] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/scan_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine\n'}
+[6.358671] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/monitor_npy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.359952] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/robot_protocol.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.361366] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/cloude_http_client.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.363007] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/mpu_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.364385] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/cubic_spline.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.365711] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/robot_protocol_single.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.367127] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/split_npz.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.368323] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/readnpy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.369562] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/admittance_calculate.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.371013] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/gazeShifting_mechanism_simulation.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.372254] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/robot_protocol_trajectory_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.373637] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.374666] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/robot_protocol_out.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.375830] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/mpu_read_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.377057] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/readnpz.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.378248] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/imu_vibration_monitor.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils\n'}
+[6.380196] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/easy_MotionInterpolator.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation\n'}
+[6.381546] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation\n'}
+[6.383557] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/IK_Redirection/txt_visual.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection\n'}
+[6.384903] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/IK_Redirection/npy_visual.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection\n'}
+[6.386141] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/IK_Redirection/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection\n'}
+[6.387210] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/IK_Redirection/ik_redirection_new.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection\n'}
+[6.388625] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/IK_Redirection/config.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection\n'}
+[6.389843] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/IK_Redirection/ik_redirection.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection\n'}
+[6.391906] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc\n'}
+[6.392971] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/run.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc\n'}
+[6.396237] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/vq_quantizer.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.397564] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/network_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.399142] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/loss_functions.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.400371] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/pnn.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.401617] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/common_player.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.402881] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_network_mcp_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.404103] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_models.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.405541] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/im_amp.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.418953] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.419918] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/ar_prior.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.420821] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/replay_buffer.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.421530] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/running_norm.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.422300] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/transformer.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.423247] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_network_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.423923] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_agent.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.424793] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_datasets.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.425498] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_network_pnn_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.426253] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/common_agent.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.426915] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/im_amp_players.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.427951] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/network_loader.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.434313] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/amp_players.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.435427] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/transformer_layers.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning\n'}
+[6.436139] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env\n'}
+[6.438681] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/pytorch3d_transforms.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.440810] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/rotation_conversions.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.442823] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/flags.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.444517] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/torch_MMRAV6_Assembly_batch.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.446327] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/o3d_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.447957] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/traj_generator.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.449768] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/running_mean_std.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.451321] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/draw_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.453032] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/torch_h1_humanoid_batch.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.454756] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/logger.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.455476] (-) TimerEvent: {}
+[6.458464] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/data_tree.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.460408] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.461271] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/plot_script.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.462205] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/torch_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.464276] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/motion_lib_base.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.465983] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/uhc_transform_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.467743] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/motion_lib_smpl.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.469788] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/parse_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.471431] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/config.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.473263] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/transform_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.475018] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/benchmarking.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.476892] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/utils/motion_lib_h1.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils\n'}
+[6.480195] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/unrealego_autoencoder_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.482058] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/base_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.486655] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/unrealego_heatmap_shared_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.487567] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.488402] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/network.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.489492] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/egoglass_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.491090] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/network_debug.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.492758] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/models.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego\n'}
+[6.496436] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_speed.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.498524] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/vec_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.500627] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_mcp.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.502519] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_amp_getup.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.504423] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_demo.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.506400] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_getup.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.508254] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/base_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.510302] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.512732] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.514384] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/vec_task_wrappers.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.515980] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_amp_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.517620] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_mcp_demo.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.519269] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.521791] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_mcp_getup.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.522989] (robot_state_machine) StdoutLine: {'line': b'copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_amp.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks\n'}
+[6.544594] (robot_state_machine) StdoutLine: {'line': b'running install\n'}
+[6.555656] (-) TimerEvent: {}
+[6.580610] (robot_state_machine) StdoutLine: {'line': b'running install_lib\n'}
+[6.655846] (-) TimerEvent: {}
+[6.704420] (robot_state_machine) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/robot_pose_solver.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine\n'}
+[6.706961] (robot_state_machine) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/external_force_state.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine\n'}
+[6.731560] (robot_state_machine) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/imu_vibration_monitor.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine/utils\n'}
+[6.732863] (robot_state_machine) StdoutLine: {'line': b'copying /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/main_node_online_V2.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine\n'}
+[6.737044] (robot_state_machine) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine/robot_pose_solver.py to robot_pose_solver.cpython-310.pyc\n'}
+[6.756016] (-) TimerEvent: {}
+[6.765582] (robot_state_machine) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine/external_force_state.py to external_force_state.cpython-310.pyc\n'}
+[6.794334] (robot_state_machine) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine/utils/imu_vibration_monitor.py to imu_vibration_monitor.cpython-310.pyc\n'}
+[6.804245] (robot_state_machine) StdoutLine: {'line': b'byte-compiling /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine/main_node_online_V2.py to main_node_online_V2.cpython-310.pyc\n'}
+[6.839091] (robot_state_machine) StdoutLine: {'line': b'running install_data\n'}
+[6.841309] (robot_state_machine) StdoutLine: {'line': b'copying resource/robot_state_machine -> /home/sunrise/TWStateMachine/install/robot_state_machine/share/ament_index/resource_index/packages\n'}
+[6.843280] (robot_state_machine) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/TWStateMachine/install/robot_state_machine/share/robot_state_machine\n'}
+[6.845510] (robot_state_machine) StdoutLine: {'line': b'copying launch/robot_state_machine.launch.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/share/robot_state_machine/launch\n'}
+[6.846696] (robot_state_machine) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.856248] (-) TimerEvent: {}
+[6.957211] (-) TimerEvent: {}
+[6.991389] (robot_state_machine) StdoutLine: {'line': b"removing '/home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.993310] (robot_state_machine) StdoutLine: {'line': b'Copying ../../build/robot_state_machine/robot_state_machine.egg-info to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine-0.0.0-py3.10.egg-info\n'}
+[7.000671] (robot_state_machine) StdoutLine: {'line': b'running install_scripts\n'}
+[7.057418] (-) TimerEvent: {}
+[7.158305] (-) TimerEvent: {}
+[7.259282] (-) TimerEvent: {}
+[7.296243] (robot_state_machine) StdoutLine: {'line': b'Installing main_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine\n'}
+[7.297482] (robot_state_machine) StdoutLine: {'line': b'Installing mpu_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine\n'}
+[7.298782] (robot_state_machine) StdoutLine: {'line': b'Installing out_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine\n'}
+[7.300018] (robot_state_machine) StdoutLine: {'line': b'Installing vibration_monitor_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine\n'}
+[7.321661] (robot_state_machine) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/TWStateMachine/build/robot_state_machine/install.log'\n"}
+[7.359519] (-) TimerEvent: {}
+[7.460493] (-) TimerEvent: {}
+[7.541560] (robot_state_machine) CommandEnded: {'returncode': 0}
+[7.560626] (-) TimerEvent: {}
+[7.640604] (robot_state_machine) JobEnded: {'identifier': 'robot_state_machine', 'rc': 0}
+[7.645019] (-) EventReactorShutdown: {}

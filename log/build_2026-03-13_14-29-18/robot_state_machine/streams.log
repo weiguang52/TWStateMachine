@@ -1,0 +1,144 @@
+[4.034s] Invoking command in '/home/sunrise/TWStateMachine/src/robot_state_machine': CONDA_PROMPT_MODIFIER=(TWStateMachine) PYTHONPATH=/home/sunrise/TWStateMachine/build/robot_state_machine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_state_machine build --build-base /home/sunrise/TWStateMachine/build/robot_state_machine/build install --record /home/sunrise/TWStateMachine/build/robot_state_machine/install.log --single-version-externally-managed install_data
+[5.574s] running egg_info
+[5.674s] writing ../../build/robot_state_machine/robot_state_machine.egg-info/PKG-INFO
+[5.677s] writing dependency_links to ../../build/robot_state_machine/robot_state_machine.egg-info/dependency_links.txt
+[5.679s] writing entry points to ../../build/robot_state_machine/robot_state_machine.egg-info/entry_points.txt
+[5.680s] writing requirements to ../../build/robot_state_machine/robot_state_machine.egg-info/requires.txt
+[5.681s] writing top-level names to ../../build/robot_state_machine/robot_state_machine.egg-info/top_level.txt
+[5.905s] reading manifest file '../../build/robot_state_machine/robot_state_machine.egg-info/SOURCES.txt'
+[5.937s] writing manifest file '../../build/robot_state_machine/robot_state_machine.egg-info/SOURCES.txt'
+[5.938s] running build
+[5.939s] running build_py
+[5.940s] copying robot_state_machine/main_node_online_npy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.942s] copying robot_state_machine/robot_pose_solver.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.943s] copying robot_state_machine/main_node.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.944s] copying robot_state_machine/search_follow_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.945s] copying robot_state_machine/obstacle_avoidance_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.946s] copying robot_state_machine/mpu_read_parse.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.947s] copying robot_state_machine/edge_min_hw_pipeline.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.948s] copying robot_state_machine/follow_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.949s] copying robot_state_machine/search_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.951s] copying robot_state_machine/online_npy_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.951s] copying robot_state_machine/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.953s] copying robot_state_machine/out_node.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.953s] copying robot_state_machine/main_node_offline_npy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.955s] copying robot_state_machine/main_node_offline.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.956s] copying robot_state_machine/imu_vibration_monitor.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.958s] copying robot_state_machine/scan_module.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine
+[5.961s] copying robot_state_machine/utils/monitor_npy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.962s] copying robot_state_machine/utils/robot_protocol.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.963s] copying robot_state_machine/utils/cloude_http_client.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.964s] copying robot_state_machine/utils/mpu_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.965s] copying robot_state_machine/utils/cubic_spline.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.966s] copying robot_state_machine/utils/robot_protocol_single.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.968s] copying robot_state_machine/utils/split_npz.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.968s] copying robot_state_machine/utils/readnpy.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.969s] copying robot_state_machine/utils/admittance_calculate.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.970s] copying robot_state_machine/utils/gazeShifting_mechanism_simulation.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.971s] copying robot_state_machine/utils/robot_protocol_trajectory_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.973s] copying robot_state_machine/utils/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.974s] copying robot_state_machine/utils/gRPC_client.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.975s] copying robot_state_machine/utils/robot_protocol_out.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.976s] copying robot_state_machine/utils/voice_agent_pb2_grpc.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.977s] copying robot_state_machine/utils/mpu_read_test.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.978s] copying robot_state_machine/utils/media_stream_pb2.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.979s] copying robot_state_machine/utils/media_stream_pb2_grpc.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.980s] copying robot_state_machine/utils/gRPC_server.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.981s] copying robot_state_machine/utils/readnpz.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.983s] copying robot_state_machine/utils/voice_agent_pb2.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils
+[5.985s] copying robot_state_machine/utils/Interpolation/easy_MotionInterpolator.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation
+[5.986s] copying robot_state_machine/utils/Interpolation/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation
+[5.988s] copying robot_state_machine/utils/IK_Redirection/txt_visual.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection
+[5.989s] copying robot_state_machine/utils/IK_Redirection/npy_visual.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection
+[5.990s] copying robot_state_machine/utils/IK_Redirection/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection
+[5.991s] copying robot_state_machine/utils/IK_Redirection/ik_redirection_new.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection
+[5.992s] copying robot_state_machine/utils/IK_Redirection/config.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection
+[5.993s] copying robot_state_machine/utils/IK_Redirection/ik_redirection.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/IK_Redirection
+[5.995s] copying robot_state_machine/utils/Interpolation/phc/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc
+[5.995s] copying robot_state_machine/utils/Interpolation/phc/run.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc
+[5.999s] copying robot_state_machine/utils/Interpolation/phc/learning/vq_quantizer.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.000s] copying robot_state_machine/utils/Interpolation/phc/learning/network_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.001s] copying robot_state_machine/utils/Interpolation/phc/learning/loss_functions.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.002s] copying robot_state_machine/utils/Interpolation/phc/learning/pnn.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.003s] copying robot_state_machine/utils/Interpolation/phc/learning/common_player.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.004s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_network_mcp_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.005s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_models.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.006s] copying robot_state_machine/utils/Interpolation/phc/learning/im_amp.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.007s] copying robot_state_machine/utils/Interpolation/phc/learning/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.008s] copying robot_state_machine/utils/Interpolation/phc/learning/ar_prior.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.009s] copying robot_state_machine/utils/Interpolation/phc/learning/replay_buffer.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.010s] copying robot_state_machine/utils/Interpolation/phc/learning/running_norm.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.011s] copying robot_state_machine/utils/Interpolation/phc/learning/transformer.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.013s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_network_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.014s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_agent.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.015s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_datasets.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.016s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_network_pnn_builder.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.017s] copying robot_state_machine/utils/Interpolation/phc/learning/common_agent.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.018s] copying robot_state_machine/utils/Interpolation/phc/learning/im_amp_players.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.019s] copying robot_state_machine/utils/Interpolation/phc/learning/network_loader.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.020s] copying robot_state_machine/utils/Interpolation/phc/learning/amp_players.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.021s] copying robot_state_machine/utils/Interpolation/phc/learning/transformer_layers.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning
+[6.023s] copying robot_state_machine/utils/Interpolation/phc/env/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env
+[6.026s] copying robot_state_machine/utils/Interpolation/phc/utils/pytorch3d_transforms.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.027s] copying robot_state_machine/utils/Interpolation/phc/utils/rotation_conversions.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.028s] copying robot_state_machine/utils/Interpolation/phc/utils/flags.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.029s] copying robot_state_machine/utils/Interpolation/phc/utils/torch_MMRAV6_Assembly_batch.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.030s] copying robot_state_machine/utils/Interpolation/phc/utils/o3d_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.031s] copying robot_state_machine/utils/Interpolation/phc/utils/traj_generator.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.032s] copying robot_state_machine/utils/Interpolation/phc/utils/running_mean_std.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.033s] copying robot_state_machine/utils/Interpolation/phc/utils/draw_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.034s] copying robot_state_machine/utils/Interpolation/phc/utils/torch_h1_humanoid_batch.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.036s] copying robot_state_machine/utils/Interpolation/phc/utils/logger.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.037s] copying robot_state_machine/utils/Interpolation/phc/utils/data_tree.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.038s] copying robot_state_machine/utils/Interpolation/phc/utils/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.039s] copying robot_state_machine/utils/Interpolation/phc/utils/plot_script.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.040s] copying robot_state_machine/utils/Interpolation/phc/utils/torch_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.041s] copying robot_state_machine/utils/Interpolation/phc/utils/motion_lib_base.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.042s] copying robot_state_machine/utils/Interpolation/phc/utils/uhc_transform_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.043s] copying robot_state_machine/utils/Interpolation/phc/utils/motion_lib_smpl.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.044s] copying robot_state_machine/utils/Interpolation/phc/utils/parse_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.045s] copying robot_state_machine/utils/Interpolation/phc/utils/config.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.046s] copying robot_state_machine/utils/Interpolation/phc/utils/transform_utils.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.047s] copying robot_state_machine/utils/Interpolation/phc/utils/benchmarking.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.048s] copying robot_state_machine/utils/Interpolation/phc/utils/motion_lib_h1.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/utils
+[6.050s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/unrealego_autoencoder_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.051s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/base_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.052s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/unrealego_heatmap_shared_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.053s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.054s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/network.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.055s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/egoglass_model.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.056s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/network_debug.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.058s] copying robot_state_machine/utils/Interpolation/phc/learning/unrealego/models.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/learning/unrealego
+[6.060s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_speed.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.062s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/vec_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.063s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_mcp.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.064s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_amp_getup.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.065s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_demo.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.066s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_getup.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.067s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/base_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.068s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.069s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/__init__.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.070s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/vec_task_wrappers.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.071s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_amp_task.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.072s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_mcp_demo.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.073s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.075s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_im_mcp_getup.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.076s] copying robot_state_machine/utils/Interpolation/phc/env/tasks/humanoid_amp.py -> /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/utils/Interpolation/phc/env/tasks
+[6.095s] running install
+[6.126s] running install_lib
+[6.249s] copying /home/sunrise/TWStateMachine/build/robot_state_machine/build/lib/robot_state_machine/imu_vibration_monitor.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine
+[6.265s] byte-compiling /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine/imu_vibration_monitor.py to imu_vibration_monitor.cpython-310.pyc
+[6.271s] running install_data
+[6.273s] copying resource/robot_state_machine -> /home/sunrise/TWStateMachine/install/robot_state_machine/share/ament_index/resource_index/packages
+[6.274s] copying package.xml -> /home/sunrise/TWStateMachine/install/robot_state_machine/share/robot_state_machine
+[6.275s] copying launch/robot_state_machine.launch.py -> /home/sunrise/TWStateMachine/install/robot_state_machine/share/robot_state_machine/launch
+[6.276s] running install_egg_info
+[6.387s] removing '/home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine-0.0.0-py3.10.egg-info' (and everything under it)
+[6.388s] Copying ../../build/robot_state_machine/robot_state_machine.egg-info to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages/robot_state_machine-0.0.0-py3.10.egg-info
+[6.395s] running install_scripts
+[6.630s] Installing main_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine
+[6.631s] Installing mpu_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine
+[6.632s] Installing out_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine
+[6.633s] Installing vibration_monitor_node script to /home/sunrise/TWStateMachine/install/robot_state_machine/lib/robot_state_machine
+[6.654s] writing list of installed files to '/home/sunrise/TWStateMachine/build/robot_state_machine/install.log'
+[6.880s] Invoked command in '/home/sunrise/TWStateMachine/src/robot_state_machine' returned '0': CONDA_PROMPT_MODIFIER=(TWStateMachine) PYTHONPATH=/home/sunrise/TWStateMachine/build/robot_state_machine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/TWStateMachine/install/robot_state_machine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_state_machine build --build-base /home/sunrise/TWStateMachine/build/robot_state_machine/build install --record /home/sunrise/TWStateMachine/build/robot_state_machine/install.log --single-version-externally-managed install_data

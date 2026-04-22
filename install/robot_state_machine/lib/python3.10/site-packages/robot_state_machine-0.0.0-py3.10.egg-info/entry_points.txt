@@ -1,0 +1,5 @@
+[console_scripts]
+main_node = robot_state_machine.main_node_offline:main
+mpu_node = robot_state_machine.mpu_node:main
+out_node = robot_state_machine.out_node:main
+vibration_monitor_node = robot_state_machine.vibration_monitor_node:main

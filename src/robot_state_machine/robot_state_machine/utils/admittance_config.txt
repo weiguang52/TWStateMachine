@@ -1,0 +1,229 @@
+# ========== 关节参数配置表（在这里定义所有关节的参数） ==========
+JOINT_CONFIGS = {
+    '''
+    'joint': {
+        'current_threshold': 0.03,              # 电流突变阈值 (A)
+        'current_recovery_threshold': 0.015,    # 电流恢复阈值 (A)
+        'current_to_torque_coeff': 1.2,        # 电流到力矩转换系数
+        'expected_torque': 0.1,                 # 期望力矩 (N·m)
+        'damping_coeff': 15.0,                  # 阻尼系数 (B)
+        'stiffness_coeff': 120.0,               # 刚度系数 (K)
+    },
+    '''
+    'right_shoulder_roll': {
+        'current_threshold': 0.04,              # 电流突变阈值 (A)
+        'current_recovery_threshold': 0.02,    # 电流恢复阈值 (A)
+        'current_to_torque_coeff': 0.8,        # 电流到力矩转换系数
+        'expected_torque': 0.0004,                 # 期望力矩 (N·m)
+        'damping_coeff': 0.0001,                  # 阻尼系数 (B)
+        'stiffness_coeff': 0.07,               # 刚度系数 (K)
+    },#
+    'right_shoulder_yaw': {
+        'current_threshold': 0.02,
+        'current_recovery_threshold': 0.01,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'right_elbow_pitch': {
+        'current_threshold': 0.02,
+        'current_recovery_threshold': 0.01,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.06,
+    },#
+    'right_wrist_yaw': {
+        'current_threshold': 0.035,
+        'current_recovery_threshold': 0.0175,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_shoulder_roll': {
+        'current_threshold': 0.04,
+        'current_recovery_threshold': 0.02,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_shoulder_yaw': {
+        'current_threshold': 0.02,
+        'current_recovery_threshold': 0.01,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_elbow_pitch': {
+        'current_threshold': 0.02,
+        'current_recovery_threshold': 0.01,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 20.0,
+        'stiffness_coeff': 200.0,
+    },#
+    'left_wrist_yaw': {
+        'current_threshold': 0.035,
+        'current_recovery_threshold': 0.0175,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'right_shoulder_pitch': {
+        'current_threshold': 0.02,
+        'current_recovery_threshold': 0.01,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_shoulder_pitch': {
+        'current_threshold': 0.02,
+        'current_recovery_threshold': 0.01,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'neck_roll': {
+        'current_threshold': 0.025,
+        'current_recovery_threshold': 0.012,
+        'current_to_torque_coeff': 1.0,
+        'expected_torque': 0.08,
+        'damping_coeff': 12.0,
+        'stiffness_coeff': 100.0,
+    },
+    'neck_yaw': {
+        'current_threshold': 0.04,
+        'current_recovery_threshold': 0.02,
+        'current_to_torque_coeff': 1.5,
+        'expected_torque': 0.15,
+        'damping_coeff': 20.0,
+        'stiffness_coeff': 150.0,
+    },
+    'waist_pitch': {
+        'current_threshold': 0.022,
+        'current_recovery_threshold': 0.011,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.05,
+        'damping_coeff': 10.0,
+        'stiffness_coeff': 90.0,
+    },
+    'waist_roll': {
+        'current_threshold': 0.025,
+        'current_recovery_threshold': 0.012,
+        'current_to_torque_coeff': 1.0,
+        'expected_torque': 0.08,
+        'damping_coeff': 12.0,
+        'stiffness_coeff': 100.0,
+    },
+    'right_hip_pitch': {
+        'current_threshold': 0.01,
+        'current_recovery_threshold': 0.005,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },
+    'left_hip_pitch': {
+        'current_threshold': 0.01,
+        'current_recovery_threshold': 0.005,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },
+    'waist_yaw': {
+        'current_threshold': 0.025,
+        'current_recovery_threshold': 0.012,
+        'current_to_torque_coeff': 1.0,
+        'expected_torque': 0.08,
+        'damping_coeff': 12.0,
+        'stiffness_coeff': 100.0,
+    },
+    'right_hip_roll': {
+        'current_threshold': 0.08,
+        'current_recovery_threshold': 0.04,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'right_hip_yaw': {
+        'current_threshold': 0.06,
+        'current_recovery_threshold': 0.03,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'right_knee_pitch': {
+        'current_threshold': 0.08,
+        'current_recovery_threshold': 0.04,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'right_ankle_yaw': {
+        'current_threshold': 0.04,
+        'current_recovery_threshold': 0.02,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'right_ankle_pitch': {
+        'current_threshold': 0.05,
+        'current_recovery_threshold': 0.025,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_hip_roll': {
+        'current_threshold': 0.08,
+        'current_recovery_threshold': 0.04,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_hip_yaw': {
+        'current_threshold': 0.06,
+        'current_recovery_threshold': 0.03,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_knee_pitch': {
+        'current_threshold': 0.08,
+        'current_recovery_threshold': 0.04,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_ankle_yaw': {
+        'current_threshold': 0.04,
+        'current_recovery_threshold': 0.02,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+    'left_ankle_pitch': {
+        'current_threshold': 0.05,
+        'current_recovery_threshold': 0.025,
+        'current_to_torque_coeff': 0.8,
+        'expected_torque': 0.0004,
+        'damping_coeff': 0.0001,
+        'stiffness_coeff': 0.07,
+    },#
+}

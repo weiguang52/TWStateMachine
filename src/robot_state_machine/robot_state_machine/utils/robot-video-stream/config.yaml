@@ -1,0 +1,30 @@
+#==============================================================
+# Robot Video Stream Configuration File
+#==============================================================
+
+#--------------- Network Configuration ----------------
+network:
+  # Broker Address
+  broker_ip: "127.0.0.1"
+
+  # Broker Ports
+  robot_producer_port: 5555
+  broker_consumer_port: 5556
+
+#--------------- Robot Configuration ----------------
+robot:
+  id: "robot_tangwen"
+
+  camera:
+    device_index: 0
+    frame_width: 640
+    frame_height: 480
+    fps: 3
+
+  encoding:
+    format: "MJPEG"
+    quality: 80
+
+#--------------- Client Configuration ----------------
+client:
+  buffer_size: 5 # Number of frames to buffer

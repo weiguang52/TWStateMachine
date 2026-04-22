@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.002319] (-) JobUnselected: {'identifier': 'robot_comm'}
+[0.003331] (-) JobUnselected: {'identifier': 'robot_msg'}
+[0.004324] (robot_state_machine) JobQueued: {'identifier': 'robot_state_machine', 'dependencies': OrderedDict()}
+[0.004620] (robot_state_machine) JobStarted: {'identifier': 'robot_state_machine'}
+[0.098594] (-) TimerEvent: {}
+[0.199409] (-) TimerEvent: {}
+[0.300259] (-) TimerEvent: {}
+[0.401084] (-) TimerEvent: {}
+[0.501956] (-) TimerEvent: {}
+[0.602771] (-) TimerEvent: {}
+[0.703621] (-) TimerEvent: {}
+[0.804416] (-) TimerEvent: {}
+[0.905226] (-) TimerEvent: {}
+[1.002961] (robot_state_machine) JobEnded: {'identifier': 'robot_state_machine', 'rc': 0}
+[1.006572] (-) TimerEvent: {}
+[1.007005] (-) EventReactorShutdown: {}
